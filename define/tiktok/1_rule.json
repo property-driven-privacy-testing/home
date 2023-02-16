@@ -1,0 +1,8 @@
+{
+  "control_properties": ["P1","P2","P3"],
+  "mutually_exclusive_pairs": [
+  ],
+  "can_not_reach_pairs": [
+    ["P3","P1"]
+  ]
+}

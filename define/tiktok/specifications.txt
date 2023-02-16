@@ -1,0 +1,1 @@
+A does not follow B, B does not follow A, B is set as a private account -> A can find B's user card with a private account icon, A can not find B's video card

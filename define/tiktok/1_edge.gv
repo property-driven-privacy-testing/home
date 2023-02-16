@@ -1,0 +1,31 @@
+digraph startgame {
+S1[label="P1"];
+S0->S1[label="P1"]
+S1->S0[label="not P1"]
+S2[label="P2"];
+S0->S2[label="P2"]
+S2->S0[label="not P2"]
+S3[label="P3"];
+S0->S3[label="P3"]
+S3->S0[label="not P3"]
+S4[label="P1,P3"];
+S4->S3[label="not P1"]
+S5[label="P2,P3"];
+S3->S5[label="P2"]
+S5->S3[label="not P2"]
+S6[label="P1,P2,P3"];
+S6->S5[label="not P1"]
+S4->S6[label="P2"]
+S6->S4[label="not P2"]
+S7[label="P1,P2"];
+S2->S7[label="P1"]
+S7->S2[label="not P1"]
+S2->S5[label="P3"]
+S5->S2[label="not P3"]
+S7->S6[label="P3"]
+S6->S7[label="not P3"]
+S1->S7[label="P2"]
+S7->S1[label="not P2"]
+S1->S4[label="P3"]
+S4->S1[label="not P3"]
+}

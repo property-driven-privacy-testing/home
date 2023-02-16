@@ -1,0 +1,8 @@
+Line:A does not follow B, B does not follow A, B is set as a private account -> A can find B's user card with a private account icon, A can not find B's video card
+Formula:F!(!P1&!P2&P3->P4&!P5)
+
+P1:A follow B 
+P2:B follow A 
+P3:B set as a private account 
+P4:with a private account icon , A find B's user card 
+P5:with a private account icon , A find B's video card 

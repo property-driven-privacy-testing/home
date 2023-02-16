@@ -1,0 +1,61 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Screenshot",
+            "type": "python",
+            "request": "launch",
+            "program": "code/start.py",
+            "console": "integratedTerminal",
+            "args": ["-app_path","app/tiktok.apk","-choice","0","-device_serial_1","","-device_serial_2",""]
+        },
+        {
+            "name": "Python: Record",
+            "type": "python",
+            "request": "launch",
+            "program": "code/start.py",
+            "console": "integratedTerminal",
+            "args": ["-app_path","app/tiktok.apk","-choice","1","-device_serial_1","","-device_serial_2","","-rule_name","1_"]
+        },
+        {
+            "name": "Python: Check Record",
+            "type": "python",
+            "request": "launch",
+            "program": "code/start.py",
+            "console": "integratedTerminal",
+            "args": ["-app_path","app/tiktok.apk","-choice","2","-device_serial_1","","-device_serial_2","","-rule_name","1_"]
+        },
+        {
+            "name": "Python: Run",
+            "type": "python",
+            "request": "launch",
+            "program": "code/start.py",
+            "console": "integratedTerminal",
+            "args": ["-app_path","app/tiktok.apk","-choice","3","-device_serial_1","","-device_serial_2","","-rule_name","1_"]
+        },
+        {
+            "name": "Python: Generte graph",
+            "type": "python",
+            "request": "launch",
+            "program": "code/start.py",
+            "console": "integratedTerminal",
+            "args": ["-app_path","app/tiktok.apk","-choice","6","-device_serial_1","emulator-5554","-device_serial_2","emulator-5554","-rule_name","1_"]
+        },
+        {
+            "name": "Python: Convert",
+            "type": "python",
+            "request": "launch",
+            "program": "code/converter.py",
+            "console": "integratedTerminal",
+            "args": []
+        },
+        {
+            "name": "Python: Construct Observer",
+            "type": "python",
+            "request": "launch",
+            "program": "code/construct.py",
+            "console": "integratedTerminal",
+            "args": []
+        }
+    ]
+}

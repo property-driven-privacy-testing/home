@@ -1,0 +1,1516 @@
+{
+    "properties": [
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "2",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                }
+            ],
+            "fragments": [],
+            "name": "P1",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "\u6211",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "\u5173\u6ce8",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "B_name",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "2",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                }
+            ],
+            "fragments": [],
+            "name": "P2",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "\u6211",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "\u5173\u6ce8",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "A_name",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                },
+                {
+                    "action": "scroll_forward",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e5_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e6_widget"
+                }
+            ],
+            "fragments": [],
+            "name": "P3",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "\u6211",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "\u66f4\u591a",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "\u8bbe\u7f6e",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "",
+                    "text": "\u9690\u79c1\u8bbe\u7f6e",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e5_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "5",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e6_widget",
+                    "resource-id": "",
+                    "text": "\u79c1\u5bc6\u5e10\u53f7",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "\u786e\u8ba4\u516c\u5f00",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "7",
+                    "relation": "in",
+                    "widget": "check_widget_1",
+                    "type": ""
+                }
+            ],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "edit",
+                    "device": "",
+                    "force": true,
+                    "text": "B_ID",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e5_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e6_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": false,
+                    "text": "",
+                    "widget": "e7_widget"
+                }
+            ],
+            "fragments": [],
+            "name": "P1",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "\u9996\u9875",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "\u641c\u7d22",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "android.widget.EditText",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "",
+                    "text": "\u641c\u7d22",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e5_widget",
+                    "resource-id": "",
+                    "text": "B_name",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e6_widget",
+                    "resource-id": "com.ss.android.ugc.aweme:id/fw0",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e7_widget",
+                    "resource-id": "android:id/button1",
+                    "text": "\u5173\u6ce8",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "\u79c1\u4fe1",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+            ],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "edit",
+                    "device": "2",
+                    "force": true,
+                    "text": "A_ID",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e5_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e6_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": false,
+                    "text": "",
+                    "widget": "e7_widget"
+                }
+            ],
+            "fragments": [],
+            "name": "P2",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "\u9996\u9875",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "\u641c\u7d22",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "android.widget.EditText",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "",
+                    "text": "\u641c\u7d22",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e5_widget",
+                    "resource-id": "",
+                    "text": "A_name",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e6_widget",
+                    "resource-id": "com.ss.android.ugc.aweme:id/fw0",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e7_widget",
+                    "resource-id": "android:id/button1",
+                    "text": "\u5173\u6ce8",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "\u79c1\u4fe1",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "9",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                },
+                {
+                    "action": "scroll_forward",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e5_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e6_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e7_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e8_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e9_widget"
+                },
+                {
+                    "action": "back",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e10_widget"
+                },
+                {
+                    "action": "back",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e11_widget"
+                },
+                {
+                    "action": "back",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e12_widget"
+                }
+            ],
+            "fragments": [],
+            "name": "P3",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "\u6211",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "\u66f4\u591a",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "\u8bbe\u7f6e",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "",
+                    "text": "\u9690\u79c1\u8bbe\u7f6e",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e5_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "5",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e6_widget",
+                    "resource-id": "",
+                    "text": "\u79c1\u5bc6\u5e10\u53f7",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "6",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e7_widget",
+                    "resource-id": "",
+                    "text": "\u786e\u5b9a\u79c1\u5bc6",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "7",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e8_widget",
+                    "resource-id": "",
+                    "text": "\u8bbe\u7f6e\u4e3a\u79c1\u5bc6\u5e10\u53f7",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "8",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e9_widget",
+                    "resource-id": "",
+                    "text": "\u79c1\u5bc6\u5e10\u53f7",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "9",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e10_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "10",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e11_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "11",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e12_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "\u786e\u8ba4\u516c\u5f00",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "9",
+                    "relation": "not in",
+                    "widget": "check_widget_1",
+                    "type": ""
+                },
+                {
+                    "UI_layout_num": "9",
+                    "relation": "not in",
+                    "widget": "check_widget_2",
+                    "type": ""
+                },
+                {
+                    "UI_layout_num": "9",
+                    "relation": "not in",
+                    "widget": "check_widget_3",
+                    "type": ""
+                }
+            ],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "edit",
+                    "device": "",
+                    "force": true,
+                    "text": "B_ID",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e5_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e6_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": false,
+                    "text": "",
+                    "widget": "e7_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": false,
+                    "text": "",
+                    "widget": "e8_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": false,
+                    "text": "",
+                    "widget": "e9_widget"
+                }
+            ],
+            "fragments": [],
+            "name": "not Pa",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "\u9996\u9875",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "\u641c\u7d22",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "android.widget.EditText",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "",
+                    "text": "\u641c\u7d22",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e5_widget",
+                    "resource-id": "",
+                    "text": "B_name",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e6_widget",
+                    "resource-id": "com.ss.android.ugc.aweme:id/fw0",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e7_widget",
+                    "resource-id": "android:id/text1",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e8_widget",
+                    "resource-id": "",
+                    "text": "\u53d6\u6d88\u5173\u6ce8",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e9_widget",
+                    "resource-id": "",
+                    "text": "\u53d6\u6d88\u5173\u6ce8",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "\u5df2\u5173\u6ce8",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_2",
+                    "resource-id": "",
+                    "text": "\u53d6\u6d88",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_3",
+                    "resource-id": "",
+                    "text": "\u5df2\u8bf7\u6c42",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "8",
+                    "relation": "not in",
+                    "widget": "check_widget_1",
+                    "type": ""
+                }
+            ],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "edit",
+                    "device": "2",
+                    "force": true,
+                    "text": "A_ID",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e5_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e6_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e7_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": false,
+                    "text": "",
+                    "widget": "e8_widget"
+                }
+            ],
+            "fragments": [],
+            "name": "not Pb",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "\u9996\u9875",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "\u641c\u7d22",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "android.widget.EditText",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "",
+                    "text": "\u641c\u7d22",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e5_widget",
+                    "resource-id": "",
+                    "text": "A_name",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e6_widget",
+                    "resource-id": "com.ss.android.ugc.aweme:id/fw0",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e7_widget",
+                    "resource-id": "",
+                    "text": "\u53d6\u6d88\u5173\u6ce8",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e8_widget",
+                    "resource-id": "",
+                    "text": "\u53d6\u6d88\u5173\u6ce8",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "\u5df2\u5173\u6ce8",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "8",
+                    "relation": "in",
+                    "type": "not",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                },
+                {
+                    "action": "scroll_forward",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e5_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e6_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e7_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e8_widget"
+                },
+                {
+                    "action": "back",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e9_widget"
+                },
+                {
+                    "action": "back",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e10_widget"
+                },
+                {
+                    "action": "back",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e11_widget"
+                }
+            ],
+            "fragments": [],
+            "name": "not Pc",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "\u6211",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "\u66f4\u591a",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "\u8bbe\u7f6e",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "",
+                    "text": "\u9690\u79c1\u8bbe\u7f6e",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e5_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "5",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e6_widget",
+                    "resource-id": "",
+                    "text": "\u79c1\u5bc6\u5e10\u53f7",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "6",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e7_widget",
+                    "resource-id": "",
+                    "text": "\u786e\u8ba4\u516c\u5f00",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "7",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e8_widget",
+                    "resource-id": "",
+                    "text": "\u79c1\u5bc6\u5e10\u53f7",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "8",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e9_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "9",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e10_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "10",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e11_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "\u786e\u5b9a\u79c1\u5bc6",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "widget": "view_object",
+                    "type": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "relation": "not in",
+                    "widget": "view_object",
+                    "type": "not"
+                }
+            ],
+            "events": [],
+            "name": "P4",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "8",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "view_object",
+                    "resource-id": "",
+                    "text": "B_name",
+                    "xpath": ""
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": "0",
+                    "name": "A9",
+                    "args": ["1","B_ID"]
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "widget": "view_object",
+                    "type": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "relation": "not in",
+                    "widget": "view_object",
+                    "type": "not"
+                }
+            ],
+            "events": [],
+            "name": "P5",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "8",
+                    "class": "",
+                    "content-desc": "publicpicture",
+                    "instance": "",
+                    "name": "view_object",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": "0",
+                    "name": "A9",
+                    "args": ["1","B_ID"]
+                }
+            ]
+        }
+        
+    ],
+    "fragments": [
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "edit",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "args[1]",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                }
+            ],
+            "name": "A9",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "\u9996\u9875",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "\u641c\u7d22",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "android.widget.EditText",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "",
+                    "text": "\u641c\u7d22",
+                    "xpath": ""
+                }
+            ]
+        }
+        
+    ]
+}
