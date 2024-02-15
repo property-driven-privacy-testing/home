@@ -1,0 +1,204 @@
+Line:A is blocking B -> A can find B user card
+Formula:!G(P0->P1)
+
+Line:A is blocking B -> B can find A user card
+Formula:!G(P0->P2)
+
+Line:A is blocking B -> B can not see A homepage
+Formula:!G(P0->!P3)
+
+Line:A is blocking B -> A can not see B homepage
+Formula:!G(P0->P4)
+
+Line:A is blocking B -> A can find B public video
+Formula:!G(P0->P5)
+
+Line:A is blocking B -> B can find A public video
+Formula:!G(P0->P6)
+
+Line:A is blocking B -> A is not following B
+Formula:!G(P0->!P7)
+
+Line:A is blocking B -> B is not following A
+Formula:!G(P0->!P8)
+
+Line:A is blocking B -> A can comment on B video
+Formula:!G(P0->P9)
+
+Line:A is blocking B -> B can not comment on A video
+Formula:!G(P0->!P10)
+
+Line:A is blocking B -> B can not send message to A
+Formula:!G(P0->!P11)
+
+Line:A is blocking B -> A can not send message to B
+Formula:!G(P0->!P12)
+
+Line:A is blocking B -> A can not find B comment; B can not find A comment
+Formula:!G(P0->!P13&!P14)
+
+Line:A is not following B -> A can not find B video in follow recommendation page
+Formula:!G(!P7->!P15)
+
+Line:A sets "make my favorites public" on, and B is not blocking A -> B can see A favorites in A homepage
+Formula:!G(P16&!P17->P18)
+
+Line:A sets "make my pursuit public" on, and B is not blocking A -> B can see A pursuit in A homepage
+Formula:!G(P19&!P17->P20)
+
+Line:A sets "make my chasing comics public" on, and B is not blocking A -> B can see A chasing comics in A homepage
+Formula:!G(P21&!P17->P22)
+
+Line:A sets "make my latest coin public" on, and B is not blocking A -> B can see A latest coin in A homepage
+Formula:!G(P23&!P17->P24)
+
+Line:A sets "make my recent likes public" on, and B is not blocking A -> B can see A recent likes in A homepage
+Formula:!G(P25&!P17->P26)
+
+Line:A sets "make my recent games public" on, and B is not blocking A -> B can see A recent games in A homepage
+Formula:!G(P27&!P17->P28)
+
+Line:A sets "make my personalized attire public" on, and B is not blocking A -> B can see A personalized attire in A homepage
+Formula:!G(P29&!P17->P30)
+
+Line:A sets "make my following list public" on, and B is not blocking A -> B can see A following list in A homepage
+Formula:!G(P31&!P17->P32)
+
+Line:A sets "make my fans list public" on, and B is not blocking A -> B can see A fans list in A homepage
+Formula:!G(P33&!P17->P34)
+
+Line:A sets "make my worn fan badges public" on, and B is not blocking A -> B can see A worn fan badges in A homepage
+Formula:!G(P35&!P17->P36)
+
+Line:A sets "make my all fans list public" on, and B is not blocking A -> B can see A all fan badges in A homepage
+Formula:!G(P37&!P17->P38)
+
+Line:A sets "make my school information" on, and B is not blocking A -> B can see A school information in A homepage
+Formula:!G(P39&!P17->P40)
+
+Line:A sets "make my favorites public" off-> B can not see A favorites in A homepage
+Formula:!G(!P16->!P18)
+
+Line:A sets "make my pursuit public" off-> B can not see A pursuit in A homepage
+Formula:!G(!P19->!P20)
+
+Line:A sets "make my chasing comics public" off-> B can not see A chasing comics in A homepage
+Formula:!G(!P21->!P22)
+
+Line:A sets "make my latest coin public" off-> B can not see A latest coin in A homepage
+Formula:!G(!P23->!P24)
+
+Line:A sets "make my recent likes public" off-> B can not see A recent likes in A homepage
+Formula:!G(!P25->!P26)
+
+Line:A sets "make my recent games public" off-> B can not see A recent games in A homepage
+Formula:!G(!P27->!P28)
+
+Line:A sets "make my personalized attire public" off-> B can not see A personalized attire in A homepage
+Formula:!G(!P29->!P30)
+
+Line:A sets "make my following list public" off-> B can not see A following list in A homepage
+Formula:!G(!P31->!P32)
+
+Line:A sets "make my fans list public" off-> B can not see A fans list in A homepage
+Formula:!G(!P33->!P34)
+
+Line:A sets "make my worn fan badges public" off-> B can not see A worn fan badges in A homepage
+Formula:!G(!P35->!P36)
+
+Line:A sets "make my all fans list public" off-> B can not see A all fan badges in A homepage
+Formula:!G(!P37->!P38)
+
+Line:A sets "make my school information" off-> B can not see A school information in A homepage
+Formula:!G(!P39->!P40)
+
+Line:A have deleted the public video -> B can not find A public video
+Formula:!G(P53->!P6)
+
+Line:A have deleted the public video -> A can not find A public video
+Formula:!G(P53->!P54)
+
+P0:A blocking B 
+P1:A find B user card 
+P2:B find A user card 
+P3:B see A homepage 
+P4:A see B homepage 
+P5:A find B public video 
+P6:B find A public video 
+P7:A following B 
+P8:B following A 
+P9:A comment on B video
+P10:B comment on A video
+P11:B send message to A
+P12:A send message to  B
+P13:A find B comment 
+P14:B find A comment 
+P15:A find B video in follow recommendation page 
+P16:A sets "make my favorites public" on
+P17:B blocking A 
+P18:B see A favorites in A homepage 
+P19:A sets "make my pursuit public" on
+P20:B see A pursuit in A homepage 
+P21:A sets "make my chasing comics public" on
+P22:B see A chasing comics in A homepage 
+P23:A sets "make my latest coin public" on
+P24:B see A latest coin in A homepage 
+P25:A sets "make my recent likes public" on
+P26:B see A recent likes in A homepage 
+P27:A sets "make my recent games public" on
+P28:B see A recent games in A homepage 
+P29:A sets "make my personalized attire public" on
+P30:B see A personalized attire in A homepage 
+P31:A sets "make my following list public" on
+P32:B see A following list in A homepage 
+P33:A sets "make my fans list public" on
+P34:B see A fans list in A homepage 
+P35:A sets "make my worn fan badges public" on
+P36:B see A worn fan badges in A homepage 
+P37:A sets "make my all fans list public" on
+P38:B see A all fan badges in A homepage 
+P39:A sets "make my school information" on
+P40:B see A school information in A homepage 
+P53:A deleted public video 
+P54:A find A public video 
+
+!G(P0->P1)
+!G(P0->P2)
+!G(P0->!P3)
+!G(P0->P4)
+!G(P0->P5)
+!G(P0->P6)
+!G(P0->!P7)
+!G(P0->!P8)
+!G(P0->P9)
+!G(P0->!P10)
+!G(P0->!P11)
+!G(P0->!P12)
+!G(P0->!P13&!P14)
+!G(!P7->!P15)
+!G(P16&!P17->P18)
+!G(P19&!P17->P20)
+!G(P21&!P17->P22)
+!G(P23&!P17->P24)
+!G(P25&!P17->P26)
+!G(P27&!P17->P28)
+!G(P29&!P17->P30)
+!G(P31&!P17->P32)
+!G(P33&!P17->P34)
+!G(P35&!P17->P36)
+!G(P37&!P17->P38)
+!G(P39&!P17->P40)
+!G(!P16->!P18)
+!G(!P19->!P20)
+!G(!P21->!P22)
+!G(!P23->!P24)
+!G(!P25->!P26)
+!G(!P27->!P28)
+!G(!P29->!P30)
+!G(!P31->!P32)
+!G(!P33->!P34)
+!G(!P35->!P36)
+!G(!P37->!P38)
+!G(!P39->!P40)
+!G(P53->!P6)
+!G(P53->!P54)

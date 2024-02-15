@@ -1,0 +1,9 @@
+{
+  "control_propositions": ["P0","P7","P8","P16","P17","P19","P21","P23","P25","P31","P33"],
+  "mutually_exclusive_pairs": [
+    ["P7","P0"],["P7","P17"],["P8","P0"],["P8","P17"]
+  ],
+  "can_not_reach_pairs": [
+    ["P0","P7"],["P0","P8"],["P17","P7"],["P17","P8"],["P0","P17"],["P17","P0"]
+  ]
+}

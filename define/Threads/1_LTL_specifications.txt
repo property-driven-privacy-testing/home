@@ -1,0 +1,143 @@
+Line:A does not follow B, and B does not follow A, B is set as a private account -> if A can find B user card before B is set as a private account, then A can find B user card
+Formula:!G(!P0&P1&X(!P2&!P3&P0&!P7&!P16)->X(P1))
+
+Line:A follows B, and B follows A, B is set as a private account -> A can find B user card
+Formula:!G(P3&P2&P0->P1)
+
+Line:A follows B, and B does not follow A, B is set as a private account -> A can find B user card
+Formula:!G(!P3&P2&P0->P1)
+
+Line:A does not follow B, and B follows A, B is set as a private account -> A can find B user card
+Formula:!G(!P2&P3&P0->P1)
+
+Line:B can find B user card
+Formula:!G(P4)
+
+Line:A does not follow B, B does not follow A, B is set as a private account -> A can not see B post in B homepage
+Formula:!G(!P2&!P3&P0->!P5)
+
+Line:A follows B, and B does not follow A, B is set as a private account -> A can not see B post in B homepage
+Formula:!G(!P3&P2&P0->P5)
+
+Line:A follows B, and B follows A, B is set as a private account -> if A can see B post in B homepage before B is set as a private account, then A can see B post in B homepage
+Formula:!G(!P0&P5&X(P3&P0&P2)->X(P5))
+
+Line:A does not follow B, and B follows A, B is set as a private account -> if A can see B post in B homepage before B is set as a private account, then A can see B post in B homepage
+Formula:!G(!P0&P5&X(!P2&P3&P0)->X(P5))
+
+Line:B can see its own post in his own homepage
+Formula:!G(P6)
+
+Line:A is blocking B -> A can not see B post in B homepage
+Formula:!G(P7->!P5)
+
+Line:A is blocking B -> B can not see A post in A homepage
+Formula:!G(P7->!P8)
+
+Line:A is blocking B -> A can not find B user card
+Formula:!G(P7->P1)
+
+Line:A is blocking B -> B can not find A user card
+Formula:!G(P7->!P9)
+
+Line:A does not follow B, and B does not follow A -> A can not comment on B followspost
+Formula:!G(!P2&!P3->!P14)
+
+Line:A follows B, and B follows A -> A can comment on B followspost
+Formula:!G(P2&P3->P14)
+
+Line:A follows B, and B does not follow A -> A can not comment on B followspost
+Formula:!G(P2&!P3->!P14)
+
+Line:A does not follow B, and B follows A -> A can comment on B followspost
+Formula:!G(!P2&P3->P14)
+
+Line:B can comment on B followspost
+Formula:!G(P15)
+
+Line:A sets "hiding custom words" on -> A can not see B sensitivecomment
+Formula:!G(P12->!P13)
+
+Line:A sets "hiding custom words" off, A is not blocking B, B is not blocking A, B is set as a private account -> A can see B sensitivecomment
+Formula:!G(!P12&!P7&!P16&!P0->P13)
+
+Line:A is not blocking B, B is not blocking A, A sets "everyone can mention you" -> B can mention A
+Formula:!G(!P7&!P16&P19->P17)
+
+Line:A does not follow B, and B does not follow A, A sets "follow can mention you" -> B can not mention A
+Formula:!G(!P2&!P3&!P19->!P17)
+
+Line:A follows B, and B follows A, A sets "follow can mention you" -> B can mention A
+Formula:!G(P2&P3&!P19->P17)
+
+Line:A follows B, and B does not follow A, A sets "follow can mention you" -> B can mention A
+Formula:!G(P2&!P3&!P19->P17)
+
+Line:A does not follow B, and B follows A, A sets "follow can mention you" -> B can not mention A
+Formula:!G(!P2&P3&!P19->!P17)
+
+Line:A is not blocking B, B is not blocking A - > A can comment on B everyonepost
+Formula:!G(!P7&!P16&!P0->P21)
+
+Line:A can not comment on B mentionotherpost
+Formula:!G(!P7&!P16&!P0->!P20)
+
+Line:A is not blocking B, B is not blocking A - > A can comment on B mentionpost
+Formula:!G(!P7&!P16&!P0->P18)
+
+Line:B can comment on B mentionpost
+Formula:!G(P11)
+
+P0:B set as a private account 
+P1:A find B user card 
+P2:A follow B
+P3:B follow A 
+P4:B find B user card 
+P5:A see B post in B homepage 
+P6:B see its own post in his own homepage 
+P7:A blocking B 
+P8:b see A post in A homepage 
+P9:B find A user card 
+P10:B can comment on B everyonepost
+P11:B can comment on B mentionpost
+P12:A sets "hiding custom words" on 
+P13:A see B sensitivecomment 
+P14:A can comment on B followspost
+P15:B can comment on B followspost 
+P16:B blocking A 
+P17:B can mention A 
+P18:A can comment on B mentionpost
+P19:A sets "everyone can mention you" on 
+P20:A can comment on B mentionotherpost
+P21:A can comment on B everyonepost
+
+!G(!P0&P1&X(!P2&!P3&P0)->X(P1))
+!G(P3&P2&P0->P1)
+!G(!P3&P2&P0->P1)
+!G(!P2&P3&P0->P1)
+!G(P4)
+!G(!P2&!P3&P0->!P5)
+!G(P3&!P2&P0->!P5)
+!G(!P0&P5&X(P3&P0&P2)->X(P5))
+!G(!P0&P5&X(P2&!P3&P0)->X(P5))
+!G(P6)
+!G(P7->!P5)
+!G(P7->!P8)
+!G(P7->P1)
+!G(P7->!P9)
+!G(!P2&!P3->!P14)
+!G(P2&P3&!P0->P14)
+!G(P2&!P3->!P14)
+!G(!P2&P3&!P0->P14)
+!G(P15)
+!G(P12->!P13)
+!G(!P12&!P7&!P16&!P0->P13)
+!G(!P7&!P16&P19->P17)
+!G(!P2&!P3&!P19->!P17)
+!G(P2&P3&!P19->P17)
+!G(P2&!P3&!P19->P17)
+!G(!P2&P3&!P19->!P17)
+!G(!P7&!P16&!P0->P21)
+!G(!P7&!P16&!P0->!P20)
+!G(!P7&!P16&!P0->P18)
+!G(P11)

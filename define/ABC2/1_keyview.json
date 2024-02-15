@@ -1,0 +1,28 @@
+{
+    "keyviews": [
+        {
+            "view": "<node NAF=\"#any#\" index=\"#any#\" text=\"Delete\" resource-id=\"#any#\" class=\"#any#\" package=\"#any#\" content-desc=\"#any#\" checkable=\"#any#\" checked=\"#any#\" clickable=\"#any#\" enabled=\"#any#\" focusable=\"#any#\" focused=\"#any#\" scrollable=\"#any#\" long-clickable=\"#any#\" password=\"#any#\" selected=\"#any#\" visible-to-user=\"#any#\" bounds=\"\" />"
+        },
+        {
+            "view": "<node NAF=\"#any#\" index=\"#any#\" text=\"#any#\" resource-id=\"#any#\" class=\"#any#\" package=\"#any#\" content-desc=\"Send\" checkable=\"#any#\" checked=\"#any#\" clickable=\"#any#\" enabled=\"#any#\" focusable=\"#any#\" focused=\"#any#\" scrollable=\"#any#\" long-clickable=\"#any#\" password=\"#any#\" selected=\"#any#\" visible-to-user=\"#any#\" bounds=\"\" />"
+        },
+        {
+            "view": "<node NAF=\"#any#\" index=\"#any#\" text=\"#any#\" resource-id=\"com.twitter.android:id/inline_action_item_icon\" class=\"#any#\" package=\"#any#\" content-desc=\"#any#\" checkable=\"#any#\" checked=\"#any#\" clickable=\"#any#\" enabled=\"#any#\" focusable=\"#any#\" focused=\"#any#\" scrollable=\"#any#\" long-clickable=\"#any#\" password=\"#any#\" selected=\"#any#\" visible-to-user=\"#any#\" bounds=\"\" />"
+        },
+        {
+            "view": "<node NAF=\"#any#\" index=\"#any#\" text=\"REPLY\" resource-id=\"#any#\" class=\"#any#\" package=\"#any#\" content-desc=\"#any#\" checkable=\"#any#\" checked=\"#any#\" clickable=\"#any#\" enabled=\"#any#\" focusable=\"#any#\" focused=\"#any#\" scrollable=\"#any#\" long-clickable=\"#any#\" password=\"#any#\" selected=\"#any#\" visible-to-user=\"#any#\" bounds=\"\" />"
+        },
+        {
+            "view": "<node NAF=\"#any#\" index=\"#any#\" text=\"Send via Direct Message\" resource-id=\"#any#\" class=\"#any#\" package=\"#any#\" content-desc=\"#any#\" checkable=\"#any#\" checked=\"#any#\" clickable=\"#any#\" enabled=\"#any#\" focusable=\"#any#\" focused=\"#any#\" scrollable=\"#any#\" long-clickable=\"#any#\" password=\"#any#\" selected=\"#any#\" visible-to-user=\"#any#\" bounds=\"\" />"
+        },
+        {
+            "view": "<node NAF=\"#any#\" index=\"#any#\" text=\"#any#\" resource-id=\"#any#\" class=\"#any#\" package=\"#any#\" content-desc=\"Photos\" checkable=\"#any#\" checked=\"#any#\" clickable=\"#any#\" enabled=\"#any#\" focusable=\"#any#\" focused=\"#any#\" scrollable=\"#any#\" long-clickable=\"#any#\" password=\"#any#\" selected=\"#any#\" visible-to-user=\"#any#\" bounds=\"\" />"
+        },
+        {
+            "view": "<node NAF=\"#any#\" index=\"#any#\" text=\"#any#\" resource-id=\"#any#\" class=\"#any#\" package=\"#any#\" content-desc=\"GIF\" checkable=\"#any#\" checked=\"#any#\" clickable=\"#any#\" enabled=\"#any#\" focusable=\"#any#\" focused=\"#any#\" scrollable=\"#any#\" long-clickable=\"#any#\" password=\"#any#\" selected=\"#any#\" visible-to-user=\"#any#\" bounds=\"\" />"
+        },
+        {
+            "view": "<node NAF=\"#any#\" index=\"#any#\" text=\"Reply\" resource-id=\"#any#\" class=\"#any#\" package=\"#any#\" content-desc=\"#any#\" checkable=\"#any#\" checked=\"#any#\" clickable=\"#any#\" enabled=\"#any#\" focusable=\"#any#\" focused=\"#any#\" scrollable=\"#any#\" long-clickable=\"#any#\" password=\"#any#\" selected=\"#any#\" visible-to-user=\"#any#\" bounds=\"\" />"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "control_propositions": ["P2","P3","P12","P14","P17"],
+  "mutually_exclusive_pairs": [
+    ["P2","P14"],["P14","P11"]
+  ],
+  "can_not_reach_pairs": [
+    ["P0","P2"],["P14","P3"],["P14","P11"]
+  ]
+}

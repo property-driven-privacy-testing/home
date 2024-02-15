@@ -1,0 +1,150 @@
+Line:A does not follow B, and B does not follow A -> A can not find B circle visible tweet
+Formula:!G(!P0&!P1->!P2)
+
+Line:A follows B, A is not in B's circle -> After B adds A to the circle, A can find B circle visible tweet (end: A removes B from circle)
+Formula:!G(P0&!P5->P6)
+
+Line:A is in B's circle -> A can find B circle visible tweet
+Formula:!G(P5->P2)
+
+Line:B can find his own circle visible tweet
+Formula:!G(P8)
+
+Line:B can find his own public tweet
+Formula:!G(P9)
+
+Line:A mutes B -> B will not appear in A following recommendation page
+Formula:!G(P3->!P10)
+
+Line:A mutes B -> If B can find A public tweet before A mutes B, B can find A public tweet
+Formula:!G(P11&!P3&X(P3)->XP11)
+
+Line:A blocks B -> A will not appear in B following recommendation page, B will not appear in A following recommendation page
+Formula:!G(P4->!P12&!P10)
+
+Line:A blocks B -> A does not follow B, B does not follow A
+Formula:!G(P4->!P0&!P1)
+
+Line:A blocks B -> A can not view B tweet in B homepage, B can not view A tweet in A homepage
+Formula:!G(P4->!P13&!P14)
+
+Line:A blocks B -> A can not find B comment, B can not find A comments
+Formula:!G(P4->!P15&!P16)
+
+Line:A sets "allow message only from people you follow", A follows B -> B can sent private letter to A
+Formula:!G(!P21&P0->P20)
+
+Line:A sets "allow message only from people you follow", A does not follow B -> B can not sent private letter to A
+Formula:!G(!P21&P18&!P0->!P20)
+
+Line:A sets "allow message requests from everyone"-> B can sent private letter to A
+Formula:!G(P21&!P4&!P23->P20)
+
+Line:A does not follow B, B does not follow A, A does not block B, B does not block A -> After A and B block each other and A try to follow B, A can see the prompt "You have been blocked from following this account at the request of the user" (end: B unblocks A)
+Formula:!G(!P0&!P1&!P4&!P23->P24)
+
+Line:A have deleted the testdelete tweet -> B can not find A testdelete tweet
+Formula:!G(P30->!P31)
+
+Line:A have deleted the testdelete tweet -> A can not find A testdelete tweet
+Formula:!G(P30->!P32)
+
+Line:B follows A, A does not set "protect your tweets" -> After A sets "protect your tweets", B can view A public tweet (end: A unsets "protect your tweets")
+Formula:!G(P1&!P33->P35)
+
+Line:B does not follow A, A does not set "protect your tweets" ->  After A sets "protect your tweets", B can not view A public tweet (end: A unsets "protect your tweets")
+Formula:!G(!P1&!P33->!P35)
+
+Line:B does not follow A, A sets "protect your tweets", A does not blocks B, and B does not blocks A ->  After B try to follow A and A accepts B, B can view A public tweet (end: B unfollows A")
+Formula:!G(!P1&P33&!P4&!P23->P36)
+
+Line:A does not follow B, and B does not follow A, and A does not blocks B -> After A blocks B, and B appears in the blacklist of A (end: A unblocks B)
+Formula:!G(!P0&!P1&!P4->P49)
+
+Line:A follows B, and B follows A -> After A blocks B, and B appears in the blacklist of A (end: A unblocks B, A follows B, B follows A)
+Formula:!G(P0&P1->P47)
+
+Line:A does not follow B, and B follows A -> After A blocks B, and B appears in the blacklist of A (end: A unblocks B, B follows A)
+Formula:!G(!P0&P1->P46)
+
+Line:A follows B, and B does not follow A -> After A blocks B, and B appears in the blacklist of A (end: A unblocks B, A follows B)
+Formula:!G(P0&!P1->P45)
+
+Line:A sets "muted words sensitive" to "anyone" -> B sensitive will not appear in A following recommendation page
+Formula:!G(P50->!P51)
+
+Line:A follows B, A sets "muted words sensitive" to "from people you don't follow" -> B sensitive will appear in A following recommendation page
+Formula:!G(P0&!P50&!P3->P51)
+
+Line:A does not follow B, A sets "muted words sensitive" to "from people you don't follow" -> B sensitive will not appear in A following recommendation page
+Formula:!G(!P0&!P50->!P51)
+
+Line:A follows B, A sets "only people you follow can tag you" -> B can tag A in publish page
+Formula:!G(P0&P53->P54)
+
+Line:A does not follow B, A sets "only people you follow can tag you" -> B can not tag A in publish page
+Formula:!G(!P0&P53->!P54)
+
+P0:A follow B 
+P1:B follow A 
+P2:A find B circle visible tweet 
+P3:A mute B
+P4:A block B
+P5:A is in B's circle 
+P6:After B adds A to the circle, A can find B circle visible tweet (end: A removes B from circle)
+P8:B find his own circle 
+P9:B find his own public tweet 
+P10:B appear in A following recommendation page 
+P11:B find A public tweet 
+P12:A appear in B following recommendation page 
+P13:A view B tweet in B homepage 
+P14:B view A tweet in A homepage 
+P15:A find B comment 
+P16:B find A comments 
+P20:B sent private letter to A
+P21:A sets "allow message requests from everyone"
+P23:B block A 
+P24:After A and B block each other and A try to follow B, A can see the prompt "You have been blocked from following this account at the request of the user" (end: B unblocks A)
+P30:A deleted testdelete tweet 
+P31:B find A testdelete tweet 
+P32:A find A testdelete tweet 
+P33:A set "protect your tweets"
+P35:After A sets "protect your tweets", B can view A public tweet (end: A unsets "protect your tweets") 
+P36:After B try to follow A and A accepts B, B can view A public tweet (end: B unfollows A")
+P41:A sets "mark media you tweet as containing material that may be sensitive"
+P42:B sets "display media that may contain sensitive content"
+P45:After A blocks B, and B appears in the blacklist of A (end: A unblocks B, A follows B)
+P46:After A blocks B, and B appears in the blacklist of A (end: A unblocks B, B follows A)
+P47:After A blocks B, and B appears in the blacklist of A (end: A unblocks B, A follows B, B follows A)
+P48:B view A tweet in B following recommendation page 
+P49:After A blocks B, and B appears in the blacklist of A (end: A unblocks B)
+P50:A sets "muted words sensitive" to "anyone"
+P51:B sensitive appear in A following recommendation page 
+P53:A sets "only people you follow can tag you"
+P54:B tag A in publish page 
+
+!G(!P0&!P1->!P2)
+!G(P0&!P5->P6)
+!G(P5->P2)
+!G(P8)
+!G(P9)
+!G(P3->!P10)
+!G(P11&!P3&X(P3)->XP11)
+!G(P4->!P12&!P10)
+!G(P4->!P0&!P1)
+!G(P4->!P13&!P14)
+!G(P4->!P15&!P16)
+!G(!P21&P0->P20)
+!G(!P21&P18&!P0->!P20)
+!G(P21&!P4&!P23->P20)
+!G(!P0&!P1&!P4&!P23->P24)
+!G(P30->!P31)
+!G(P30->!P32)
+!G(P1&!P33->P35)
+!G(!P1&!P33->!P35)
+!G(!P1&P33&!P4&!P23->P36)
+!G(P50->!P51)
+!G(P0&!P50&!P3->P51)
+!G(!P0&!P50->!P51)
+!G(P0&P53->P54)
+!G(!P0&P53->!P54)

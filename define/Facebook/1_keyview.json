@@ -1,0 +1,37 @@
+{
+    "keyviews": [
+        {
+            "view": "<node NAF=\"#any#\" index=\"#any#\" text=\"Delete\" resource-id=\"#any#\" class=\"#any#\" package=\"#any#\" content-desc=\"#any#\" checkable=\"#any#\" checked=\"#any#\" clickable=\"#any#\" enabled=\"#any#\" focusable=\"#any#\" focused=\"#any#\" scrollable=\"#any#\" long-clickable=\"#any#\" password=\"#any#\" selected=\"#any#\" visible-to-user=\"#any#\" bounds=\"\" />"
+        },
+        {
+            "view": "<node NAF=\"#any#\" index=\"#any#\" text=\"#any#\" resource-id=\"#any#\" class=\"#any#\" package=\"#any#\" content-desc=\"Create, Double tap to create a new post, story, or reel\" checkable=\"#any#\" checked=\"#any#\" clickable=\"#any#\" enabled=\"#any#\" focusable=\"#any#\" focused=\"#any#\" scrollable=\"#any#\" long-clickable=\"#any#\" password=\"#any#\" selected=\"#any#\" visible-to-user=\"#any#\" bounds=\"\" />"
+        },
+        {
+            "view": "<node NAF=\"#any#\" index=\"#any#\" text=\"#any#\" resource-id=\"#any#\" class=\"#any#\" package=\"#any#\" content-desc=\"Hide from profile This post may still appear in other places.\" checkable=\"#any#\" checked=\"#any#\" clickable=\"#any#\" enabled=\"#any#\" focusable=\"#any#\" focused=\"#any#\" scrollable=\"#any#\" long-clickable=\"#any#\" password=\"#any#\" selected=\"#any#\" visible-to-user=\"#any#\" bounds=\"\" />"
+        },
+        {
+            "view": "<node NAF=\"#any#\" index=\"#any#\" text=\"#any#\" resource-id=\"#any#\" class=\"#any#\" package=\"#any#\" content-desc=\"Delete\" checkable=\"#any#\" checked=\"#any#\" clickable=\"#any#\" enabled=\"#any#\" focusable=\"#any#\" focused=\"#any#\" scrollable=\"#any#\" long-clickable=\"#any#\" password=\"#any#\" selected=\"#any#\" visible-to-user=\"#any#\" bounds=\"\" />"
+        },
+        {
+            "view": "<node NAF=\"#any#\" index=\"#any#\" text=\"#any#\" resource-id=\"#any#\" class=\"#any#\" package=\"#any#\" content-desc=\"See more\" checkable=\"#any#\" checked=\"#any#\" clickable=\"#any#\" enabled=\"#any#\" focusable=\"#any#\" focused=\"#any#\" scrollable=\"#any#\" long-clickable=\"#any#\" password=\"#any#\" selected=\"#any#\" visible-to-user=\"#any#\" bounds=\"\" />"
+        },
+        {
+            "view": "<node NAF=\"#any#\" index=\"#any#\" text=\"#any#\" resource-id=\"#any#\" class=\"#any#\" package=\"#any#\" content-desc=\"Message\" checkable=\"#any#\" checked=\"#any#\" clickable=\"#any#\" enabled=\"#any#\" focusable=\"#any#\" focused=\"#any#\" scrollable=\"#any#\" long-clickable=\"#any#\" password=\"#any#\" selected=\"#any#\" visible-to-user=\"#any#\" bounds=\"\" />"
+        },
+        {
+            "view": "<node NAF=\"#any#\" index=\"#any#\" text=\"#any#\" resource-id=\"#any#\" class=\"#any#\" package=\"#any#\" content-desc=\"Send\" checkable=\"#any#\" checked=\"#any#\" clickable=\"#any#\" enabled=\"#any#\" focusable=\"#any#\" focused=\"#any#\" scrollable=\"#any#\" long-clickable=\"#any#\" password=\"#any#\" selected=\"#any#\" visible-to-user=\"#any#\" bounds=\"\" />"
+        },
+        {
+            "view": "<node NAF=\"#any#\" index=\"#any#\" text=\"#any#\" resource-id=\"#any#\" class=\"#any#\" package=\"#any#\" content-desc=\"Start audio call\" checkable=\"#any#\" checked=\"#any#\" clickable=\"#any#\" enabled=\"#any#\" focusable=\"#any#\" focused=\"#any#\" scrollable=\"#any#\" long-clickable=\"#any#\" password=\"#any#\" selected=\"#any#\" visible-to-user=\"#any#\" bounds=\"\" />"
+        },
+        {
+            "view": "<node NAF=\"#any#\" index=\"#any#\" text=\"#any#\" resource-id=\"#any#\" class=\"#any#\" package=\"#any#\" content-desc=\"Start video call\" checkable=\"#any#\" checked=\"#any#\" clickable=\"#any#\" enabled=\"#any#\" focusable=\"#any#\" focused=\"#any#\" scrollable=\"#any#\" long-clickable=\"#any#\" password=\"#any#\" selected=\"#any#\" visible-to-user=\"#any#\" bounds=\"\" />"
+        },
+        {
+            "view": "<node NAF=\"#any#\" index=\"#any#\" text=\"#any#\" resource-id=\"#any#\" class=\"#any#\" package=\"#any#\" content-desc=\"Open camera.\" checkable=\"#any#\" checked=\"#any#\" clickable=\"#any#\" enabled=\"#any#\" focusable=\"#any#\" focused=\"#any#\" scrollable=\"#any#\" long-clickable=\"#any#\" password=\"#any#\" selected=\"#any#\" visible-to-user=\"#any#\" bounds=\"\" />"
+        },
+        {
+            "view": "<node NAF=\"#any#\" index=\"#any#\" text=\"#any#\" resource-id=\"#any#\" class=\"#any#\" package=\"#any#\" content-desc=\"Add a photo\" checkable=\"#any#\" checked=\"#any#\" clickable=\"#any#\" enabled=\"#any#\" focusable=\"#any#\" focused=\"#any#\" scrollable=\"#any#\" long-clickable=\"#any#\" password=\"#any#\" selected=\"#any#\" visible-to-user=\"#any#\" bounds=\"\" />"
+        }
+    ]
+}

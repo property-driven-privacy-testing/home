@@ -1,0 +1,2733 @@
+{
+    "fragments": [
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "edit",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "args[1]",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "name": "F1",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.instagram.android:id/search_tab",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "com.instagram.android:id/action_bar_search_edit_text",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "See all results",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "name": "F2",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.instagram.android:id/row_search_user_username",
+                    "text": "args[1]",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e5_widget"
+                }
+            ],
+            "name": "F3",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.instagram.android:id/profile_tab",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "Options",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "com.instagram.android:id/menu_option_text",
+                    "text": "Settings",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "com.instagram.android:id/row_simple_text_textview",
+                    "text": "Privacy",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e5_widget",
+                    "resource-id": "com.instagram.android:id/row_menu_item_switch",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                },
+                {
+                    "action": "scroll_forward",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e5_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e6_widget"
+                }
+            ],
+            "name": "F4",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.instagram.android:id/profile_tab",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "Options",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "com.instagram.android:id/menu_option_text",
+                    "text": "Settings",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "com.instagram.android:id/row_simple_text_textview",
+                    "text": "Privacy",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e5_widget",
+                    "resource-id": "com.instagram.android:id/recycler_view",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "5",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e6_widget",
+                    "resource-id": "com.instagram.android:id/row_simple_text_textview",
+                    "text": "Blocked accounts",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "name": "F5",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": "//*[@resource-id=\"com.instagram.android:id/media_set_row_content_identifier\"]/android.widget.Button[1]"
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": "//*[@resource-id=\"android:id/list\"]/android.view.ViewGroup[1]"
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "Comment",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "name": "F6",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.instagram.android:id/tab_button_name_text",
+                    "text": "Accounts",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": false,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": false,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "name": "F7",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.instagram.android:id/profile_header_user_action_follow_button",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "com.instagram.android:id/follow_sheet_unfollow_row",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "com.instagram.android:id/primary_button",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e5_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e6_widget"
+                }
+            ],
+            "name": "F8",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.instagram.android:id/profile_tab",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "Options",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "Settings",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "com.instagram.android:id/row_simple_text_textview",
+                    "text": "Privacy",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e5_widget",
+                    "resource-id": "com.instagram.android:id/row_simple_text_textview",
+                    "text": "Private account",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "5",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e6_widget",
+                    "resource-id": "com.instagram.android:id/bb_primary_action_container",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "name": "F9",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Options",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "com.instagram.android:id/action_sheet_row_text_view",
+                    "text": "Block",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "com.instagram.android:id/bb_primary_action",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                }
+            ],
+            "name": "F10",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Options",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "com.instagram.android:id/action_sheet_row_text_view",
+                    "text": "Unblock",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "com.instagram.android:id/primary_button",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "com.instagram.android:id/primary_button",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "name": "F11",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Options",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "name": "F12",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Options",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "com.instagram.android:id/action_sheet_row_text_view",
+                    "text": "Hide your story",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "com.instagram.android:id/primary_button",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                }
+            ],
+            "name": "F13",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Options",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "com.instagram.android:id/action_sheet_row_text_view",
+                    "text": "Unhide your story",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "name": "F14",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.instagram.android:id/reel_ring",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "scroll_forward",
+                    "device": "args[0]",
+                    "force": false,
+                    "text": "",
+                    "widget": "e0_widget"
+                }
+            ],
+            "name": "F15",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e0_widget",
+                    "resource-id": "com.instagram.android:id/similar_accounts_carousel_recycler_view",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        }
+    ],
+    "propositions": [
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        ""
+                    ],
+                    "name": "F8",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P0",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.instagram.android:id/row_menu_item_switch",
+                    "text": "",
+                    "xpath": "checked::true"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        ""
+                    ],
+                    "name": "F8",
+                    "order_num": "0"
+                }
+            ],
+            "name": "not P0",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.instagram.android:id/row_menu_item_switch",
+                    "text": "",
+                    "xpath": "checked::false"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                }
+            ],
+            "fragments": [],
+            "name": "P0",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.instagram.android:id/profile_tab",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "Options",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "com.instagram.android:id/menu_option_text",
+                    "text": "Settings",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "com.instagram.android:id/row_simple_text_textview",
+                    "text": "Privacy",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.instagram.android:id/row_menu_item_switch",
+                    "text": "",
+                    "xpath": "checked::true"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P1",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.instagram.android:id/row_search_user_username",
+                    "text": "B_name",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "2",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "1",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "1",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                }
+            ],
+            "fragments": [],
+            "name": "P2",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.instagram.android:id/profile_tab",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "com.instagram.android:id/row_profile_header_textview_following_title",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "B_name",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "8",
+                    "relation": "not in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                },
+                {
+                    "UI_layout_num": "8",
+                    "relation": "not in",
+                    "type": "",
+                    "widget": "check_widget_2"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F2",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F7",
+                    "order_num": "0"
+                }
+            ],
+            "name": "not P2",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.instagram.android:id/profile_header_follow_button",
+                    "text": "Requested",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_2",
+                    "resource-id": "com.instagram.android:id/profile_header_follow_button",
+                    "text": "Following",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "8",
+                    "relation": "not in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                },
+                {
+                    "UI_layout_num": "8",
+                    "relation": "not in",
+                    "type": "",
+                    "widget": "check_widget_2"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F2",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F7",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P2",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.instagram.android:id/profile_header_follow_button",
+                    "text": "Follow",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_2",
+                    "resource-id": "com.instagram.android:id/profile_header_follow_button",
+                    "text": "Follow back",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "2",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                }
+            ],
+            "fragments": [],
+            "name": "P3",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.instagram.android:id/profile_tab",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "com.instagram.android:id/row_profile_header_textview_following_title",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "A_name",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "8",
+                    "relation": "not in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                },
+                {
+                    "UI_layout_num": "8",
+                    "relation": "not in",
+                    "type": "",
+                    "widget": "check_widget_2"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F2",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F7",
+                    "order_num": "0"
+                }
+            ],
+            "name": "not P3",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.instagram.android:id/profile_header_follow_button",
+                    "text": "Requested",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_2",
+                    "resource-id": "com.instagram.android:id/profile_header_follow_button",
+                    "text": "Following",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "8",
+                    "relation": "not in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                },
+                {
+                    "UI_layout_num": "8",
+                    "relation": "not in",
+                    "type": "",
+                    "widget": "check_widget_2"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F2",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F7",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P3",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.instagram.android:id/profile_header_follow_button",
+                    "text": "Follow",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_2",
+                    "resource-id": "com.instagram.android:id/profile_header_follow_button",
+                    "text": "Follow back",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "8",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                },
+                {
+                    "UI_layout_num": "5",
+                    "relation": "not in",
+                    "type": "",
+                    "widget": "check_widget_2"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F2",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P5",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "publicvideo",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_2",
+                    "resource-id": "",
+                    "text": "Unblock",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F2",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P6",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "This Account is Private",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F2",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P7",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.instagram.android:id/username",
+                    "text": "Highlights",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F6",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P8",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.instagram.android:id/row_search_user_username",
+                    "text": "B_name",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "1",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "1",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "1",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "1",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "1",
+                    "force": true,
+                    "text": "",
+                    "widget": "e5_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "1",
+                    "force": true,
+                    "text": "",
+                    "widget": "e6_widget"
+                }
+            ],
+            "fragments": [],
+            "name": "P11",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.instagram.android:id/profile_tab",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "Options",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "com.instagram.android:id/menu_option_text",
+                    "text": "Settings",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "com.instagram.android:id/row_simple_text_textview",
+                    "text": "Privacy",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e5_widget",
+                    "resource-id": "com.instagram.android:id/row_simple_text_textview",
+                    "text": "Story",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "5",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e6_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": "//*[@resource-id=\"com.instagram.android:id/recycler_view\"]/android.widget.Button[1]"
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "B_name",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "9",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F2",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F12",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F11",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P11",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.instagram.android:id/action_sheet_row_text_view",
+                    "text": "Unhide your story",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "8",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F2",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F13",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F11",
+                    "order_num": "0"
+                }
+            ],
+            "name": "not P11",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.instagram.android:id/action_sheet_row_text_view",
+                    "text": "Hide your story",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                },
+                {
+                    "UI_layout_num": "5",
+                    "relation": "not in",
+                    "type": "",
+                    "widget": "check_widget_2"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F2",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F14",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P12",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.instagram.android:id/composer_text",
+                    "text": "Send message",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_2",
+                    "resource-id": "",
+                    "text": "Unblock",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                },
+                {
+                    "UI_layout_num": "5",
+                    "relation": "not in",
+                    "type": "",
+                    "widget": "check_widget_2"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F2",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F14",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P13",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.instagram.android:id/composer_text",
+                    "text": "Send message",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_2",
+                    "resource-id": "",
+                    "text": "Unblock",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                },
+                {
+                    "action": "scroll_forward",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e5_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e6_widget"
+                }
+            ],
+            "fragments": [],
+            "name": "P14",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.instagram.android:id/profile_tab",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "Options",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "com.instagram.android:id/menu_option_text",
+                    "text": "Settings",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "com.instagram.android:id/row_simple_text_textview",
+                    "text": "Privacy",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "5",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e5_widget",
+                    "resource-id": "com.instagram.android:id/recycler_view",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e6_widget",
+                    "resource-id": "com.instagram.android:id/row_simple_text_textview",
+                    "text": "Blocked accounts",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "B_name",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "9",
+                    "relation": "not in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F2",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F10",
+                    "order_num": "0"
+                }
+            ],
+            "name": "not P14",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.instagram.android:id/profile_header_follow_button",
+                    "text": "Unblock",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "8",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F2",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F9",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P14",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.instagram.android:id/profile_header_follow_button",
+                    "text": "Unblock",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "8",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                },
+                {
+                    "UI_layout_num": "5",
+                    "relation": "not in",
+                    "type": "",
+                    "widget": "check_widget_2"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F2",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P15",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "publicvideo",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_2",
+                    "resource-id": "",
+                    "text": "Unblock",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F2",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P16",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.instagram.android:id/username",
+                    "text": "Highlights",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P17",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.instagram.android:id/row_search_user_username",
+                    "text": "B_name",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F6",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P19",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.instagram.android:id/row_search_user_username",
+                    "text": "A_name",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "B_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P26",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.instagram.android:id/row_search_user_username",
+                    "text": "B_name",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "9",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "B_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "B_name"
+                    ],
+                    "name": "F2",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "B_name"
+                    ],
+                    "name": "F15",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "B_name"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P27",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "publicvideo",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "B_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "B_name"
+                    ],
+                    "name": "F6",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P29",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.instagram.android:id/row_search_user_username",
+                    "text": "B_name",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "B_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "B_name"
+                    ],
+                    "name": "F2",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P30",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.instagram.android:id/username",
+                    "text": "Friend",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                },
+                {
+                    "UI_layout_num": "5",
+                    "relation": "not in",
+                    "type": "",
+                    "widget": "check_widget_2"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F2",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P31",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "Drafts",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_2",
+                    "resource-id": "",
+                    "text": "Unblock",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "B_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "B_name"
+                    ],
+                    "name": "F2",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "B_name"
+                    ],
+                    "name": "F15",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P32",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "Drafts",
+                    "xpath": ""
+                }
+            ]
+        }
+    ]
+}

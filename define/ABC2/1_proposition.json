@@ -1,0 +1,4163 @@
+{
+    "fragments": [
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": false,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "edit",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "args[1]",
+                    "widget": "e3_widget"
+                }
+            ],
+            "name": "F1",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": "//*[@content-desc=\"Search and Explore\"]/android.view.View[1]"
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "com.twitter.android:id/query_view",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "android.widget.EditText",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "args[1]",
+                    "widget": "special_e1_widget"
+                }
+            ],
+            "name": "F2",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "android.widget.TextView",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "special_e1_widget",
+                    "resource-id": "",
+                    "text": "args[1]",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "back",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "name": "F3",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Show navigation drawer",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "1",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "1",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "Following",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                }
+            ],
+            "name": "F4",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "android:id/title",
+                    "text": "Mute and block",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "android:id/title",
+                    "text": "Blocked accounts",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "scroll_forward",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e5_widget"
+                }
+            ],
+            "name": "F5",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Show navigation drawer",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "Settings & Support",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "",
+                    "text": "Settings and privacy",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e5_widget",
+                    "resource-id": "android:id/title",
+                    "text": "Privacy and safety",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "edit",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "random",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                }
+            ],
+            "name": "F6",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.twitter.android:id/button_bar_direct_message",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "Start a message",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "android.widget.EditText",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": "//*[@resource-id=\"com.twitter.android:id/compose_content\"]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[1]/android.widget.Button[1]"
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "name": "F7",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.twitter.android:id/button_bar_follow",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                }
+            ],
+            "name": "F8",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "android:id/title",
+                    "text": "Audience and tagging",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "android:id/switch_widget",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "name": "F9",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "More options",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "Block",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "android:id/button1",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                }
+            ],
+            "name": "F10",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.twitter.android:id/button_bar_blocked",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "android:id/button1",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "name": "F11",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "Media",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                }
+            ],
+            "name": "F12",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "More options",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "Unmute",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                }
+            ],
+            "name": "F13",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "android:id/title",
+                    "text": "Direct messages",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "Allow messages only from people you follow",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                }
+            ],
+            "name": "F14",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "android:id/title",
+                    "text": "Direct messages",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "Allow message requests from everyone",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "scroll_forward",
+                    "device": "args[0]",
+                    "force": false,
+                    "text": "args[1]",
+                    "widget": "special_e1_widget"
+                }
+            ],
+            "name": "F15",
+            "widgets": [
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "special_e1_widget",
+                    "resource-id": "args[1]",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": false,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "name": "F16",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.twitter.android:id/composer_write",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "com.twitter.android:id/narrowcast_button",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "Edit",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "args[1]",
+                    "widget": "special_e1_widget"
+                }
+            ],
+            "name": "F17",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "special_e1_widget",
+                    "resource-id": "",
+                    "text": "args[1]",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "name": "F18",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Show navigation drawer",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "Follower requests",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "com.twitter.android:id/action_button_accept",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "start",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": ""
+                }
+            ],
+            "name": "F19",
+            "widgets": []
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                }
+            ],
+            "name": "F20",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "android:id/title",
+                    "text": "Your Tweets",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "android:id/switch_widget",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                }
+            ],
+            "name": "F21",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "android:id/title",
+                    "text": "Content you see",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "android:id/switch_widget",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                }
+            ],
+            "name": "F22",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.twitter.android:id/muted_keyword_composer_option_anyone_check",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "com.twitter.android:id/save",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                }
+            ],
+            "name": "F23",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.twitter.android:id/muted_keyword_composer_option_only_follow_check",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "com.twitter.android:id/save",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "name": "F24",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "android:id/title",
+                    "text": "Audience and tagging",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "android:id/title",
+                    "text": "Photo tagging",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "android:id/text1",
+                    "text": "Only people you follow can tag you",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": false,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": false,
+                    "text": "",
+                    "widget": "e4_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e5_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": false,
+                    "text": "",
+                    "widget": "e6_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": false,
+                    "text": "",
+                    "widget": "e7_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e8_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e9_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e10_widget"
+                },
+                {
+                    "action": "edit",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "args[1]",
+                    "widget": "e11_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e12_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e13_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e14_widget"
+                }
+            ],
+            "name": "F25",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.twitter.android:id/composer_write",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "com.twitter.android:id/composer_write",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "com.twitter.android:id/gallery",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "com.android.permissioncontroller:id/permission_allow_button",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "class": "",
+                    "content-desc": "Camera",
+                    "instance": "",
+                    "name": "e5_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "5",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e6_widget",
+                    "resource-id": "com.twitter.android:id/button_positive",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "6",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e7_widget",
+                    "resource-id": "com.android.permissioncontroller:id/permission_allow_button",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "7",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e8_widget",
+                    "resource-id": "com.twitter.android:id/shutter_base",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "8",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e9_widget",
+                    "resource-id": "com.twitter.android:id/speed_bump_use_media",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "9",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e10_widget",
+                    "resource-id": "com.twitter.android:id/media_tag_prompt",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "10",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e11_widget",
+                    "resource-id": "com.twitter.android:id/photo_tag_text",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "11",
+                    "class": "",
+                    "content-desc": "Navigate up",
+                    "instance": "",
+                    "name": "e12_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "11",
+                    "class": "",
+                    "content-desc": "Navigate up",
+                    "instance": "",
+                    "name": "e13_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "12",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e14_widget",
+                    "resource-id": "android:id/button2",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "name": "F26",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "android:id/title",
+                    "text": "Audience and tagging",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "android:id/title",
+                    "text": "Photo tagging",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "android:id/text1",
+                    "text": "Anyone can tag you",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e5_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e6_widget"
+                }
+            ],
+            "name": "F28",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Show navigation drawer",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "Profile",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "test delete",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "com.twitter.android:id/tweet_curation_action",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e5_widget",
+                    "resource-id": "com.twitter.android:id/action_sheet_item_title",
+                    "text": "Delete Tweet",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "5",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e6_widget",
+                    "resource-id": "android:id/button1",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                }
+            ],
+            "name": "F29",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.twitter.android:id/button_bar_following",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "android:id/button1",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "name": "F30",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "Add",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "name": "F31",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "Remove",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                }
+            ],
+            "name": "F32",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "android:id/title",
+                    "text": "Mute and block",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "android:id/title",
+                    "text": "Muted accounts",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "name": "F33",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "android:id/title",
+                    "text": "Mute and block",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "android:id/title",
+                    "text": "Muted words",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "com.twitter.android:id/muted_keyword_row",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": false,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "name": "F34",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "More options",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "Mute",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "m sure",
+                    "xpath": ""
+                }
+            ]
+        }
+    ],
+    "propositions": [
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                }
+            ],
+            "name": "P0",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.twitter.android:id/button_bar_following",
+                    "text": "FOLLOWING",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F7",
+                    "order_num": "2"
+                }
+            ],
+            "name": "P0",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F29",
+                    "order_num": "2"
+                }
+            ],
+            "name": "not P0",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                }
+            ],
+            "name": "P1",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.twitter.android:id/button_bar_following",
+                    "text": "FOLLOWING",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                },
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F7",
+                    "order_num": "2"
+                }
+            ],
+            "name": "P1",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                },
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F29",
+                    "order_num": "2"
+                }
+            ],
+            "name": "not P1",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+                
+            ],
+            "events": [
+                {
+                    "action": "scrollto",
+                    "device": "1",
+                    "force": true,
+                    "text": "circle tweet",
+                    "widget": "e1_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                }
+            ],
+            "name": "P2",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "circle tweet",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "7",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F32",
+                    "order_num": "1"
+                }
+            ],
+            "name": "P3",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "B_ID",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F34",
+                    "order_num": "2"
+                }
+            ],
+            "name": "P3",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F12",
+                    "order_num": "2"
+                }
+            ],
+            "name": "not P3",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "7",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F4",
+                    "order_num": "1"
+                }
+            ],
+            "name": "P4",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "B_ID",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F9",
+                    "order_num": "2"
+                }
+            ],
+            "name": "P4",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F10",
+                    "order_num": "2"
+                }
+            ],
+            "name": "not P4",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F16",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P5",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "Remove",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F16",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F30",
+                    "order_num": "1"
+                }
+            ],
+            "name": "P5",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F16",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F31",
+                    "order_num": "1"
+                }
+            ],
+            "name": "not P5",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [
+                {
+                    "action": "scrollto",
+                    "device": "2",
+                    "force": true,
+                    "text": "circle tweet",
+                    "widget": "e1_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "B_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "B_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                }
+            ],
+            "name": "P8",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "circle tweet",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+                
+            ],
+            "events": [
+                {
+                    "action": "scrollto",
+                    "device": "2",
+                    "force": true,
+                    "text": "public photo",
+                    "widget": "e1_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "B_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "B_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                },
+                {
+                    "args": [
+                        "2",
+                        "B_ID"
+                    ],
+                    "name": "F11",
+                    "order_num": "1"
+                }
+            ],
+            "name": "P9",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "public photo",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "3",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F3",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P10",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "B_name",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F11",
+                    "order_num": "1"
+                }
+            ],
+            "name": "P11",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "public photo",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "3",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F3",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P12",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "A_name",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                }
+            ],
+            "name": "P13",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "public",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                }
+            ],
+            "name": "P14",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "public",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F11",
+                    "order_num": "2"
+                },
+                {
+                    "args": [
+                        "1",
+                        "public sensitive"
+                    ],
+                    "name": "F17",
+                    "order_num": "3"
+                }
+            ],
+            "name": "P15",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "test comment",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                },
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F11",
+                    "order_num": "2"
+                },
+                {
+                    "args": [
+                        "2",
+                        "public sensitive"
+                    ],
+                    "name": "F17",
+                    "order_num": "3"
+                }
+            ],
+            "name": "P16",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "test comment",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                },
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F6",
+                    "order_num": "2"
+                }
+            ],
+            "name": "P20",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "Start a message",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P21",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "android:id/title",
+                    "text": "Direct messages",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "Filter low-quality messages",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F14",
+                    "order_num": "1"
+                }
+            ],
+            "name": "P21",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F13",
+                    "order_num": "1"
+                }
+            ],
+            "name": "not P21",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "7",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F4",
+                    "order_num": "1"
+                }
+            ],
+            "name": "P23",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "A_ID",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F9",
+                    "order_num": "2"
+                }
+            ],
+            "name": "P23",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F10",
+                    "order_num": "2"
+                }
+            ],
+            "name": "not P23",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "17",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "1"
+                },
+                {
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "2"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "3"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F9",
+                    "order_num": "4"
+                },
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F9",
+                    "order_num": "5"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F10",
+                    "order_num": "6"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F7",
+                    "order_num": "7"
+                },
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F10",
+                    "order_num": "8"
+                }
+            ],
+            "name": "P24",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "com.twitter.android:id/button_bar_follow",
+                    "text": "FOLLOW",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "not in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "A_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "A_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                }
+            ],
+            "name": "P30",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "test delete",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F28",
+                    "order_num": "3"
+                }
+            ],
+            "name": "P30",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": false,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "edit",
+                    "device": "",
+                    "force": true,
+                    "text": "test delete",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "fragments": [],
+            "name": "not P30",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.twitter.android:id/composer_write",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "com.twitter.android:id/tweet_text",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": "//*[@resource-id=\"com.twitter.android:id/composer_toolbar\"]/android.widget.LinearLayout[1]"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                }
+            ],
+            "name": "P31",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "test delete",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "A_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "A_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                }
+            ],
+            "name": "P32",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "test delete",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P33",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "android:id/title",
+                    "text": "Audience and tagging",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "android:id/switch_widget",
+                    "text": "",
+                    "xpath": "checked::true"
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F8",
+                    "order_num": "1"
+                }
+            ],
+            "name": "P33",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F8",
+                    "order_num": "1"
+                }
+            ],
+            "name": "not P33",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "12",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F8",
+                    "order_num": "1"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "2"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "3"
+                },
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F11",
+                    "order_num": "4"
+                }
+            ],
+            "name": "P35",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "android:id/switch_widget",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "public",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "14",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                },
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F7",
+                    "order_num": "2"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F18",
+                    "order_num": "3"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F19",
+                    "order_num": "4"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F1",
+                    "order_num": "5"
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F2",
+                    "order_num": "6"
+                },
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F11",
+                    "order_num": "7"
+                },
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F29",
+                    "order_num": "8"
+                }
+            ],
+            "name": "P36",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "public",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P41",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "android:id/title",
+                    "text": "Your Tweets",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "android:id/switch_widget",
+                    "text": "",
+                    "xpath": "checked::true"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P42",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "android:id/title",
+                    "text": "Content you see",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "android:id/switch_widget",
+                    "text": "",
+                    "xpath": "checked::true"
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F20",
+                    "order_num": "1"
+                }
+            ],
+            "name": "P41",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F20",
+                    "order_num": "1"
+                }
+            ],
+            "name": "not P41",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F21",
+                    "order_num": "1"
+                }
+            ],
+            "name": "P42",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F21",
+                    "order_num": "1"
+                }
+            ],
+            "name": "not P42",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "3",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F3",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P48",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "A_ID",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "8",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F33",
+                    "order_num": "1"
+                }
+            ],
+            "name": "P50",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "Anyone",
+                    "xpath": "checked::true"
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F33",
+                    "order_num": "1"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F22",
+                    "order_num": "2"
+                }
+            ],
+            "name": "P50",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F33",
+                    "order_num": "1"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F23",
+                    "order_num": "2"
+                }
+            ],
+            "name": "not P50",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "3",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [
+                {
+                    "action": "scrollto",
+                    "device": "1",
+                    "force": true,
+                    "text": "circle tweet",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F3",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P51",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "This media might include sensitive content",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P53",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "android:id/title",
+                    "text": "Audience and tagging",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "Only people you follow can tag you",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F24",
+                    "order_num": "1"
+                }
+            ],
+            "name": "P53",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F26",
+                    "order_num": "1"
+                }
+            ],
+            "name": "not P53",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "11",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ],
+                    "name": "F25",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P54",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "A_ID",
+                    "xpath": ""
+                }
+            ]
+        }
+    ]
+}

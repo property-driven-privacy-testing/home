@@ -1,0 +1,539 @@
+--START--
+Property: !G(P2&!P3->!P8)
+HOA: v1
+States: 2
+Start: 1
+AP: 3 "P2" "P3" "P8"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[0&!1&2] 0
+[!0 | 1 | !2] 1
+--END--
+
+--START--
+Property: !G(P2&P3->P8)
+HOA: v1
+States: 2
+Start: 1
+AP: 3 "P2" "P3" "P8"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[0&1&!2] 0
+[!0 | !1 | 2] 1
+--END--
+
+--START--
+Property: !G(!P2->!P8)
+HOA: v1
+States: 2
+Start: 1
+AP: 2 "P2" "P8"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[!0&1] 0
+[0 | !1] 1
+--END--
+
+--START--
+Property: !G(P12&!P3->!P10)
+HOA: v1
+States: 2
+Start: 1
+AP: 3 "P3" "P10" "P12"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[!0&1&2] 0
+[0 | !1 | !2] 1
+--END--
+
+--START--
+Property: !G(P12&P3->P10)
+HOA: v1
+States: 2
+Start: 1
+AP: 3 "P3" "P10" "P12"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[0&!1&2] 0
+[!0 | 1 | !2] 1
+--END--
+
+--START--
+Property: !G(!P12->!P10)
+HOA: v1
+States: 2
+Start: 1
+AP: 2 "P10" "P12"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[0&!1] 0
+[!0 | 1] 1
+--END--
+
+--START--
+Property: !G(P14->P15)
+HOA: v1
+States: 2
+Start: 1
+AP: 2 "P14" "P15"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[0&!1] 0
+[!0 | 1] 1
+--END--
+
+--START--
+Property: !G(!P14&!P3->!P15)
+HOA: v1
+States: 2
+Start: 1
+AP: 3 "P3" "P14" "P15"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[!0&!1&2] 0
+[0 | 1 | !2] 1
+--END--
+
+--START--
+Property: !G(!P14&P3->P15)
+HOA: v1
+States: 2
+Start: 1
+AP: 3 "P3" "P14" "P15"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[0&!1&!2] 0
+[!0 | 1 | 2] 1
+--END--
+
+--START--
+Property: !G(P17->P18)
+HOA: v1
+States: 2
+Start: 1
+AP: 2 "P17" "P18"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[0&!1] 0
+[!0 | 1] 1
+--END--
+
+--START--
+Property: !G(!P17->!P18)
+HOA: v1
+States: 2
+Start: 1
+AP: 2 "P17" "P18"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[!0&1] 0
+[0 | !1] 1
+--END--
+
+--START--
+Property: !G(P22->P23)
+HOA: v1
+States: 2
+Start: 1
+AP: 2 "P22" "P23"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[0&!1] 0
+[!0 | 1] 1
+--END--
+
+--START--
+Property: !G(!P22&!P3->!P23)
+HOA: v1
+States: 2
+Start: 1
+AP: 3 "P3" "P22" "P23"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[!0&!1&2] 0
+[0 | 1 | !2] 1
+--END--
+
+--START--
+Property: !G(!P22&P3->P23)
+HOA: v1
+States: 2
+Start: 1
+AP: 3 "P3" "P22" "P23"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[0&!1&!2] 0
+[!0 | 1 | 2] 1
+--END--
+
+--START--
+Property: !G(P22->P26)
+HOA: v1
+States: 2
+Start: 1
+AP: 2 "P22" "P26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[0&!1] 0
+[!0 | 1] 1
+--END--
+
+--START--
+Property: !G(!P22->!P26)
+HOA: v1
+States: 2
+Start: 1
+AP: 2 "P22" "P26"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[!0&1] 0
+[0 | !1] 1
+--END--
+
+--START--
+Property: !G(P30->!P31)
+HOA: v1
+States: 2
+Start: 1
+AP: 2 "P30" "P31"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[0&1] 0
+[!0 | !1] 1
+--END--
+
+--START--
+Property: !G(P30->!P32)
+HOA: v1
+States: 2
+Start: 1
+AP: 2 "P30" "P32"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[0&1] 0
+[!0 | !1] 1
+--END--
+
+--START--
+Property: !G(P33->P34)
+HOA: v1
+States: 2
+Start: 1
+AP: 2 "P33" "P34"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[0&!1] 0
+[!0 | 1] 1
+--END--
+
+--START--
+Property: !G(!P33&!P3->!P34)
+HOA: v1
+States: 2
+Start: 1
+AP: 3 "P3" "P33" "P34"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[!0&!1&2] 0
+[0 | 1 | !2] 1
+--END--
+
+--START--
+Property: !G(!P33&P3->P34)
+HOA: v1
+States: 2
+Start: 1
+AP: 3 "P3" "P33" "P34"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[0&!1&!2] 0
+[!0 | 1 | 2] 1
+--END--
+
+--START--
+Property: !G(P33&P30->P37)
+HOA: v1
+States: 2
+Start: 1
+AP: 3 "P30" "P33" "P37"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[0&1&!2] 0
+[!0 | !1 | 2] 1
+--END--
+
+--START--
+Property: !G(!P33&!P3&P30->!P37)
+HOA: v1
+States: 2
+Start: 1
+AP: 4 "P3" "P30" "P33" "P37"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[!0&1&!2&3] 0
+[0 | !1 | 2 | !3] 1
+--END--
+
+--START--
+Property: !G(!P33&P3&P30->P37)
+HOA: v1
+States: 2
+Start: 1
+AP: 4 "P3" "P30" "P33" "P37"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[0&1&!2&!3] 0
+[!0 | !1 | 2 | 3] 1
+--END--
+
+--START--
+Property: !G(P38&!P3->!P39)
+HOA: v1
+States: 2
+Start: 1
+AP: 3 "P3" "P38" "P39"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[!0&1&2] 0
+[0 | !1 | !2] 1
+--END--
+
+--START--
+Property: !G(P38&P3->P39)
+HOA: v1
+States: 2
+Start: 1
+AP: 3 "P3" "P38" "P39"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[0&1&!2] 0
+[!0 | !1 | 2] 1
+--END--
+
+--START--
+Property: !G(!P38->!P39)
+HOA: v1
+States: 2
+Start: 1
+AP: 2 "P38" "P39"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[!0&1] 0
+[0 | !1] 1
+--END--
+
+--START--
+Property: !G(P38&!P3->!P41)
+HOA: v1
+States: 2
+Start: 1
+AP: 3 "P3" "P38" "P41"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[!0&1&2] 0
+[0 | !1 | !2] 1
+--END--
+
+--START--
+Property: !G(P38&P3->P41)
+HOA: v1
+States: 2
+Start: 1
+AP: 3 "P3" "P38" "P41"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[0&1&!2] 0
+[!0 | !1 | 2] 1
+--END--
+
+--START--
+Property: !G(!P38&!P3->!P41)HOA: v1
+States: 2
+Start: 1
+AP: 3 "P3" "P38" "P41"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[!0&!1&2] 0
+[0 | 1 | !2] 1
+--END--
+

@@ -1,0 +1,148 @@
+Line:A sets "how people find and contact you" to "friends", A is not friend of B -> B can not find A friends list
+Formula:!G(P2&!P3->!P8)
+
+Line:A sets "how people find and contact you" to "friends", A is friend of B -> B can find A friends list
+Formula:!G(P2&P3->P8)
+
+Line:A sets "how people find and contact you" to "only me" -> B can not find A friends list
+Formula:!G(!P2->!P8)
+
+Line:A sets "who can see your future posts" to "friends", A is not friend of B -> after A pulish new post, B can not find A new post
+Formula:!G(P12&!P3->!P10)
+
+Line:A sets "who can see your future posts" to "friends", A is friend of B -> after A pulish new post, B can find A new post (end: A delete new post)
+Formula:!G(P12&P3->P11)
+
+Line:A sets "who can see your future posts" to "only me" -> after A pulish new post, B can not find A new post
+Formula:!G(!P12->!P10)
+
+Line:A sets "who can see your story" to "public" -> B can find A story
+Formula:!G(P14->P15)
+
+Line:A sets "who can see your story" to "friends", A is not friend of B -> B can not find A story
+Formula:!G(!P14&!P3->!P15)
+
+Line:A sets "who can see your story" to "friends", A is friend of B -> B can find A story
+Formula:!G(!P14&P3->P15)
+
+Line:A sets "allow others to comment and share" -> B can comment on A story
+Formula:!G(P17->P18)
+
+Line:A does not set "allow others to comment and share" -> B can not comment on A story
+Formula:!G(!P17->!P18)
+
+Line:A sets "who can see your reels" to "public" -> B can find A reels
+Formula:!G(P22->P23)
+
+Line:A sets "who can see your reels" to "friends", A is not friend of B -> B can not find A reels
+Formula:!G(!P22&!P3->!P23)
+
+Line:A sets "who can see your reels" to "friends", A is friend of B -> B can find A reels
+Formula:!G(!P22&P3->P23)
+
+Line:A sets "allow others to share your public reels to their own story" -> B can share A reel (end: B delete share story)
+Formula:!G(P22->P26)
+
+Line:A does not set "allow others to share your public reels to their own story" -> B can not share A reel
+Formula:!G(!P22->!P26)
+
+Line:A have deleted the testdelete tweet -> B can not find A testdelete tweet
+Formula:!G(P30->!P31)
+
+Line:A have deleted the testdelete tweet -> A can not find A testdelete tweet
+Formula:!G(P30->!P32)
+
+Line:A sets "followers and public content" to "public" -> B can comment A post
+Formula:!G(P33->P34)
+
+Line:A sets "followers and public content" to "friends", A is not friend of B -> B can not comment A post
+Formula:!G(!P33&!P3->!P34)
+
+Line:A sets "followers and public content" to "friends", A is friend of B -> B can comment A post
+Formula:!G(!P33&P3->P34)
+
+Line:A sets "followers and public content" to "public" -> B can like A profile info
+Formula:!G(P33&P30->P37)
+
+Line:A sets "followers and public content" to "friends", A is not friend of B -> B can not like A profile info
+Formula:!G(!P33&!P3&P30->!P37)
+
+Line:A sets "followers and public content" to "friends", A is friend of B -> B can like A profile info
+Formula:!G(!P33&P3&P30->P37)
+
+Line:A sets "profile and tagging" to "friends", A is not friend of B -> B can not post on A profile
+Formula:!G(P38&!P3->!P39)
+
+Line:A sets "profile and tagging" to "friends", A is friend of B -> B can post on A profile (end: B delete new post)
+Formula:!G(P38&P3->P39)
+
+Line:A sets "profile and tagging" to "only me" -> B can not post on A profile
+Formula:!G(!P38->!P39)
+
+Line:A sets "profile and tagging" to "friends", A is not friend of B -> B can not find C post in A profile
+Formula:!G(P38&!P3->!P41)
+
+Line:A sets "profile and tagging" to "friends", A is friend of B -> B can find C post in A profile
+Formula:!G(P38&P3->P41)
+
+Line:A sets "profile and tagging" to "only me", A is not friend of B -> B can not find C post in A profile
+Formula:!G(!P38&!P3->!P41)
+
+P2:A sets "how people find and contact you" to "friends"
+P3:A is friend of B
+P8:B find A friends list
+P10:B find A new post 
+P11:B find A new post (end: A delete new post)
+P12:A sets "who can see your future posts" to "friends"
+P14:A sets "who can see your story" to "public" 
+P15:B can find A story 
+P17:A sets "allow others to comment and share" 
+P18:B can comment on A story
+P20:B can share A story
+P21:(end: B share story)
+P22:A sets "who can see your reels" to "public" 
+P23:B find A reels 
+P22:A sets "allow others to share your public reels to their own story" 
+P26:B share A reel
+P27:end: B delete share story
+P30:A deleted testdelete tweet 
+P31:B find A testdelete tweet 
+P32:A find A testdelete tweet 
+P33:A sets "followers and public content" to "public" 
+P34:B can comment A post
+P37:B can like A profile info 
+P38:A sets "profile and tagging" to "friends"
+P39:B can post on A profile 
+P40:B delete new post  
+P41:B find C post in A profile 
+
+!G(P2&!P3->!P8)
+!G(P2&P3->P8)
+!G(!P2->!P8)
+!G(P12&!P3->!P10)
+!G(P12&P3->P11)
+!G(!P12->!P10)
+!G(P14->P15)
+!G(!P14&!P3->!P15)
+!G(!P14&P3->P15)
+!G(P17->P18)
+!G(!P17->!P18)
+!G(P22->P23)
+!G(!P22&!P3->!P23)
+!G(!P22&P3->P23)
+!G(P22->P26)
+!G(!P22->!P26)
+!G(P30->!P31)
+!G(P30->!P32)
+!G(P33->P34)
+!G(!P33&!P3->!P34)
+!G(!P33&P3->P34)
+!G(P33&P30->P37)
+!G(!P33&!P3&P30->!P37)
+!G(!P33&P3&P30->P37)
+!G(P38&!P3->!P39)
+!G(P38&P3->P39)
+!G(!P38->!P39)
+!G(P38&!P3->!P41)
+!G(P38&P3->P41)
+!G(!P38&!P3->!P41)

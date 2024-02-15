@@ -1,0 +1,3680 @@
+{
+    "propositions": [
+        {
+            "widgets": [],
+            "events": [],
+            "name": "pt",
+            "type": "check",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F4",
+                    "args": [
+                        "1",
+                        "A_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "\u79fb\u9664\u9ed1\u540d\u5355",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P0",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F2",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [],
+            "events": [],
+            "name": "P0",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F2",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 2,
+                    "name": "F9",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [],
+            "events": [],
+            "name": "not P0",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F2",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 2,
+                    "name": "F10",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "\u7528\u6237",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "B_name",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "P1",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "\u7528\u6237",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "A_name",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "2"
+                }
+            ],
+            "name": "P2",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "A_name",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "check_widget_2",
+                    "UI_layout_num": "",
+                    "text": "\u6700\u65b0\u53d1\u5e03",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+            ],
+            "name": "P3",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                },
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_2"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "B_name",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "check_widget_2",
+                    "UI_layout_num": "",
+                    "text": "\u6700\u65b0\u53d1\u5e03",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+            ],
+            "name": "P4",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                },
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_2"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "B_name",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+            ],
+            "name": "P5",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "A_name",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+            ],
+            "name": "P6",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "\u5df2\u5173\u6ce8",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P7",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F2",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [],
+            "events": [],
+            "name": "P7",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F2",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 2,
+                    "name": "F7",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [],
+            "events": [],
+            "name": "not P7",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F2",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 2,
+                    "name": "F29",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "\u5df2\u5173\u6ce8",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P8",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [],
+            "events": [],
+            "name": "P8",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 2,
+                    "name": "F7",
+                    "args": [
+                        "2",
+                        "2"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [],
+            "events": [],
+            "name": "not P8",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 2,
+                    "name": "F29",
+                    "args": [
+                        "2",
+                        "2"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "store::random",
+                    "resource-id": "tv.danmaku.bili:id/comment_message",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P9",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F4",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "store::random",
+                    "resource-id": "tv.danmaku.bili:id/comment_message",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P10",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "8",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F4",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "store::random",
+                    "resource-id": "",
+                    "class": "android.widget.TextView",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P11",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "10",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F6",
+                    "args": [
+                        "2",
+                        "random"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "store::random",
+                    "resource-id": "",
+                    "class": "android.widget.TextView",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P12",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "10",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F2",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F6",
+                    "args": [
+                        "1",
+                        "random"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "B_name",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P13",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F8",
+                    "args": [
+                        "1",
+                        "A_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "B_name",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P14",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F8",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "public video B_name",
+                    "resource-id": "",
+                    "class": "android.widget.TextView",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P15",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "2",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F3",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/favorite_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "checked::true",
+                    "instance": ""
+                }
+            ],
+            "events": [
+            ],
+            "name": "P16",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/bangumi_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "checked::true",
+                    "instance": ""
+                }
+            ],
+            "events": [
+            ],
+            "name": "P19",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/follow_comic_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "checked::true",
+                    "instance": ""
+                }
+            ],
+            "events": [
+            ],
+            "name": "P21",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/coin_video_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "checked::true",
+                    "instance": ""
+                }
+            ],
+            "events": [
+            ],
+            "name": "P23",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/recommend_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "checked::true",
+                    "instance": ""
+                }
+            ],
+            "events": [
+            ],
+            "name": "P25",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/game_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "checked::true",
+                    "instance": ""
+                }
+            ],
+            "events": [
+            ],
+            "name": "P27",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/fans_dress_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "checked::true",
+                    "instance": ""
+                }
+            ],
+            "events": [
+            ],
+            "name": "P29",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/focus_list_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "checked::true",
+                    "instance": ""
+                }
+            ],
+            "events": [
+            ],
+            "name": "P31",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/fans_list_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "checked::true",
+                    "instance": ""
+                }
+            ],
+            "events": [
+            ],
+            "name": "P33",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/public_space_school_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "checked::true",
+                    "instance": ""
+                }
+            ],
+            "events": [
+            ],
+            "name": "P39",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/favorite_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "",
+                    "action": "back",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "not P16",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "\u79fb\u9664\u9ed1\u540d\u5355",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P17",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [],
+            "events": [],
+            "name": "P17",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 2,
+                    "name": "F9",
+                    "args": [
+                        "2",
+                        "2"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [],
+            "events": [],
+            "name": "not P17",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 2,
+                    "name": "F10",
+                    "args": [
+                        "2",
+                        "2"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/bangumi_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "",
+                    "action": "back",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "not P19",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/follow_comic_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "",
+                    "action": "back",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "not P21",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/coin_video_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "",
+                    "action": "back",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "not P23",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/recommend_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "",
+                    "action": "back",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "not P25",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/game_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "",
+                    "action": "back",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "not P27",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/fans_dress_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "",
+                    "action": "back",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "not P29",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/focus_list_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "",
+                    "action": "back",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "not P31",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/fans_list_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "",
+                    "action": "back",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "not P33",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/public_space_school_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "",
+                    "action": "back",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "not P39",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/favorite_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "",
+                    "action": "back",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "P16",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/bangumi_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "",
+                    "action": "back",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "P19",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/follow_comic_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "",
+                    "action": "back",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "P21",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/coin_video_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "",
+                    "action": "back",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "P23",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/recommend_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "",
+                    "action": "back",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "P25",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/game_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "",
+                    "action": "back",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "P27",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/fans_dress_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "",
+                    "action": "back",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "P29",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/focus_list_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "",
+                    "action": "back",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "P31",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/fans_list_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "",
+                    "action": "back",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "P33",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/public_space_school_switch",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "",
+                    "action": "back",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "P39",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "\u6536\u85cf",
+                    "resource-id": "tv.danmaku.bili:id/tab_title",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "\u9ed8\u8ba4\u6536\u85cf\u5939",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "2"
+                }
+            ],
+            "name": "P18",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "7",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "\u8ffd\u756a",
+                    "resource-id": "tv.danmaku.bili:id/tab_title",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "\u516812\u8bdd",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "2"
+                }
+            ],
+            "name": "P20",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "7",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "\u8ffd\u6f2b",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P22",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "8",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F11",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F15",
+                    "args": [
+                        "2",
+                        "\u8ffd\u6f2b"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "\u6700\u8fd1\u6295\u5e01\u7684\u89c6\u9891",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P24",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "8",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F11",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F15",
+                    "args": [
+                        "2",
+                        "\u6700\u8fd1\u6295\u5e01\u7684\u89c6\u9891"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "\u6700\u8fd1\u70b9\u8d5e\u7684\u89c6\u9891",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P26",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "8",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F11",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F15",
+                    "args": [
+                        "2",
+                        "\u6700\u8fd1\u70b9\u8d5e\u7684\u89c6\u9891"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/attentions_layout",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "Ta\u7684\u597d\u53cb",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "2"
+                }
+            ],
+            "name": "P32",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "7",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/fans_layout",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "Ta\u7684\u597d\u53cb",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "2"
+                }
+            ],
+            "name": "P34",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "7",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "\u6e05\u534e\u5927\u5b66",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P40",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 1,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "\u53d1\u5e03\u5185\u5bb9,5\u4e4b3,\u6807\u7b7e",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "1",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "//*[@resource-id=\"tv.danmaku.bili:id/wtlTabs\"]/android.widget.LinearLayout[1]/android.view.ViewGroup[4]",
+                    "instance": ""
+                },
+                {
+                    "name": "e3_widget",
+                    "UI_layout_num": "2",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/following_edit",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e4_widget",
+                    "UI_layout_num": "3",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/publish_bt",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "e3_widget",
+                    "action": "edit",
+                    "text": "test delete A_name",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "e4_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "not P53",
+            "type": "control",
+            "conditions": [],
+            "fragments": []
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "\u52a8\u6001",
+                    "resource-id": "tv.danmaku.bili:id/tab_title",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "1",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/dy_opus_paragraph_desc_layout",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e3_widget",
+                    "UI_layout_num": "2",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/opus_top_more",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e4_widget",
+                    "UI_layout_num": "3",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "//android.view.ViewGroup/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[2]",
+                    "instance": ""
+                },
+                {
+                    "name": "e5_widget",
+                    "UI_layout_num": "4",
+                    "text": "",
+                    "resource-id": "android:id/button1",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "e3_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "e4_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "e5_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "P53",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "1",
+                        "A_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "\u52a8\u6001",
+                    "resource-id": "tv.danmaku.bili:id/tab_title",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "1",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/dy_opus_paragraph_desc_layout",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "P53",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "7",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "1",
+                        "A_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "A_name",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+            ],
+            "name": "P54",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "A_name"
+                    ]
+                }
+            ]
+        }
+    ],
+    "fragments": [
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "\u9996\u9875,5\u4e4b1,\u6807\u7b7e",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "1",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/search_icon",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e3_widget",
+                    "UI_layout_num": "2",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "android.widget.EditText",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e4_widget",
+                    "UI_layout_num": "3",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/action_search",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e3_widget",
+                    "action": "edit",
+                    "text": "args[1]",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e4_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                }
+            ],
+            "name": "F1"
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "\u7528\u6237",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "1",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/avatar_image",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                }
+            ],
+            "name": "F2"
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "\u52a8\u6001,5\u4e4b2,\u6807\u7b7e",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "1",
+                    "text": "args[1]",
+                    "resource-id": "tv.danmaku.bili:id/dy_name",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": false,
+                    "device": "args[0]"
+                }
+            ],
+            "name": "F3"
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "args[1]",
+                    "resource-id": "tv.danmaku.bili:id/upuser",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "1",
+                    "text": "\u8bc4\u8bba",
+                    "resource-id": "tv.danmaku.bili:id/tab_title",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e3_widget",
+                    "UI_layout_num": "1",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/input",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e4_widget",
+                    "UI_layout_num": "2",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "android.widget.EditText",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e3_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e4_widget",
+                    "action": "edit",
+                    "text": "random",
+                    "force": true,
+                    "device": "args[0]"
+                }
+            ],
+            "name": "F4"
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "\u6211\u7684,5\u4e4b5,\u6807\u7b7e",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "1",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e3_widget",
+                    "UI_layout_num": "2",
+                    "text": "\u8bbe\u7f6e",
+                    "resource-id": "tv.danmaku.bili:id/title",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e4_widget",
+                    "UI_layout_num": "3",
+                    "text": "\u5b89\u5168\u9690\u79c1",
+                    "resource-id": "android:id/title",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e5_widget",
+                    "UI_layout_num": "4",
+                    "text": "\u7a7a\u95f4\u9690\u79c1\u8bbe\u7f6e",
+                    "resource-id": "android:id/title",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "scroll_forward",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e3_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e4_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e5_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                }
+            ],
+            "name": "F5"
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/message_icon",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "1",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/text_input",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e3_widget",
+                    "UI_layout_num": "2",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "android.widget.EditText",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e4_widget",
+                    "UI_layout_num": "3",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/send_button",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e3_widget",
+                    "action": "edit",
+                    "text": "args[1]",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e4_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                }
+            ],
+            "name": "F6"
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/follow_button",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                }
+            ],
+            "name": "F7"
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "args[1]",
+                    "resource-id": "tv.danmaku.bili:id/upuser",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "1",
+                    "text": "\u8bc4\u8bba",
+                    "resource-id": "tv.danmaku.bili:id/tab_title",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                }
+            ],
+            "name": "F8"
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/overflow",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "1",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "//android.view.ViewGroup/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[2]",
+                    "instance": ""
+                },
+                {
+                    "name": "e3_widget",
+                    "UI_layout_num": "2",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/common_dialog_positive_btn",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e3_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                }
+            ],
+            "name": "F9"
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "\u79fb\u9664\u9ed1\u540d\u5355",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                }
+            ],
+            "name": "F10"
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "\u4e3b\u9875",
+                    "resource-id": "tv.danmaku.bili:id/tab_title",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                }
+            ],
+            "name": "F11"
+        },
+        {
+            "events": [
+                {
+                    "action": "scrollto",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "args[1]",
+                    "widget": "e1_widget"
+                }
+            ],
+            "name": "F15",
+            "widgets": [
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "tv.danmaku.bili:id/follow_button",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "1",
+                    "text": "\u53d6\u6d88\u5173\u6ce8",
+                    "resource-id": "tv.danmaku.bili:id/text",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                }
+            ],
+            "name": "F29"
+        }
+    ]
+}

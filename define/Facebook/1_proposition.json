@@ -1,0 +1,4194 @@
+{
+    "fragments": [
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "edit",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "args[1]",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "name": "F1",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Search",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "Search",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "args[1]",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": false,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "name": "F2",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": "//*[@resource-id=\"android:id/content\"]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[2]"
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                }
+            ],
+            "name": "F3",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Friends, tab 2 of 6",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "Your friends",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "name": "F4",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "How people find and contact you",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "scrollto",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "args[1]",
+                    "widget": "e3_widget"
+                }
+            ],
+            "name": "F5",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Menu, tab 6 of 6",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "Settings",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": false,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "name": "F7",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Add friend",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "Close",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "OK",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "name": "F8",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "Posts",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "name": "F11",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Friends",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": false,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "edit",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "args[1]",
+                    "widget": "e4_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e5_widget"
+                }
+            ],
+            "name": "F12",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Create, Double tap to create a new post, story, or reel",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "DENY",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "Post",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "android.widget.EditText",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "class": "",
+                    "content-desc": "POST",
+                    "instance": "",
+                    "name": "e5_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                }
+            ],
+            "name": "F13",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "Stories",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "Story privacy",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "name": "F14",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "Reels",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "scroll_forward",
+                    "device": "args[0]",
+                    "force": false,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "name": "F15",
+            "widgets": [
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "edit",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "args[1]",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "name": "F16",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "Comment",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "android.widget.EditText",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "Send",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                }
+            ],
+            "name": "F18",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Friends, tab 2 of 6",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "Confirm",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "start",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": ""
+                }
+            ],
+            "name": "F19",
+            "widgets": []
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "name": "F21",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "Followers and public content",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "name": "F22",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "Profile and Tagging",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "edit",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "args[1]",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "name": "F23",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Open the comment sheet to comment on the story.",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "Write a comment\u2026",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "Send",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "name": "F24",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "args[1]",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "longclick",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "name": "F25",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": "//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.view.ViewGroup[2]"
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "Delete",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "DELETE",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "name": "F28",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Post menu",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "Move to trash Items in your trash are deleted after 30 days.",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "MOVE",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "name": "F29",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Friends",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "Unfriend",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "CONFIRM",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "name": "F30",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Reels, tab",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "events": [
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e0_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "name": "F31",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Reel,",
+                    "instance": "",
+                    "name": "e0_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Share",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "Share to your story",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "Share",
+                    "xpath": ""
+                }
+            ]
+        }
+    ],
+    "propositions": [
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "How people find and contact you"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F4",
+                    "order_num": "1"
+                }
+            ],
+            "name": "P2",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "Friends",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e5_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e6_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e7_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e8_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "How people find and contact you"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F4",
+                    "order_num": "1"
+                }
+            ],
+            "name": "P2",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "Everyone",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "Friends of friends",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "Public",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "",
+                    "text": "Friends",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e5_widget",
+                    "resource-id": "",
+                    "text": "Everyone",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "5",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e6_widget",
+                    "resource-id": "",
+                    "text": "Friends",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "6",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e7_widget",
+                    "resource-id": "",
+                    "text": "Everyone",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "7",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e8_widget",
+                    "resource-id": "",
+                    "text": "Friends",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e5_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e6_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e7_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e8_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "How people find and contact you"
+                    ],
+                    "name": "F5",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F4",
+                    "order_num": "1"
+                }
+            ],
+            "name": "not P4",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "Friends of friends",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "Everyone",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "Friends",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "",
+                    "text": "Public",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e5_widget",
+                    "resource-id": "",
+                    "text": "Friends",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "5",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e6_widget",
+                    "resource-id": "",
+                    "text": "Everyone",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "6",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e7_widget",
+                    "resource-id": "",
+                    "text": "Friends",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "7",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e8_widget",
+                    "resource-id": "",
+                    "text": "Everyone",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "2",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F3",
+                    "order_num": "0"
+                }
+            ],
+            "name": "P3",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "B_name",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F1",
+                    "order_num": "0"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F2",
+                    "order_num": "1"
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F7",
+                    "order_num": "2"
+                },
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F18",
+                    "order_num": "3"
+                }
+            ],
+            "name": "P3",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "B_name"
+                    ],
+                    "name": "F1",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F2",
+                    "order_num": 1
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F29",
+                    "order_num": 1
+                }
+            ],
+            "name": "not P3",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F1",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F2",
+                    "order_num": 1
+                }
+            ],
+            "name": "P8",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "See all friends",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "10",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "public post"
+                    ],
+                    "name": "F12",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F1",
+                    "order_num": 1
+                },
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F2",
+                    "order_num": 2
+                },
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F15",
+                    "order_num": 3
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F28",
+                    "order_num": 0
+                }
+            ],
+            "name": "P10",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "public post",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F28",
+                    "order_num": 0
+                }
+            ],
+            "name": "P11",
+            "type": "check",
+            "widgets": []
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "not in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "Posts"
+                    ],
+                    "name": "F5",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F8",
+                    "order_num": 1
+                }
+            ],
+            "name": "P12",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "Public",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "Posts"
+                    ],
+                    "name": "F5",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F8",
+                    "order_num": 1
+                }
+            ],
+            "name": "P14",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "Who can see your future posts?",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "Friends",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "Back",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "Posts"
+                    ],
+                    "name": "F5",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F8",
+                    "order_num": 1
+                }
+            ],
+            "name": "not P12",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "Who can see your future posts?",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "Public",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "Back",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "Stories"
+                    ],
+                    "name": "F5",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F13",
+                    "order_num": 1
+                }
+            ],
+            "name": "P14",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "Only your friends and connections can reply directly to your story.",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "Stories"
+                    ],
+                    "name": "F5",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F13",
+                    "order_num": 1
+                }
+            ],
+            "name": "P14",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "Public",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "SAVE",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "Back",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "Stories"
+                    ],
+                    "name": "F5",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F13",
+                    "order_num": 1
+                }
+            ],
+            "name": "not P14",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "Friends",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "SAVE",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "Back",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "1",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_name's story"
+                    ],
+                    "name": "F24",
+                    "order_num": 0
+                }
+            ],
+            "name": "P15",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "Open the comment sheet to comment on the story.",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "Stories"
+                    ],
+                    "name": "F5",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F13",
+                    "order_num": 1
+                }
+            ],
+            "name": "P17",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "On",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "Stories"
+                    ],
+                    "name": "F5",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F13",
+                    "order_num": 1
+                }
+            ],
+            "name": "P17",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "Off",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "Stories"
+                    ],
+                    "name": "F5",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F13",
+                    "order_num": 1
+                }
+            ],
+            "name": "not P17",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "On",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_name's story"
+                    ],
+                    "name": "F24",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "2",
+                        "test"
+                    ],
+                    "name": "F23",
+                    "order_num": 1
+                },
+                {
+                    "args": [
+                        "2",
+                        "B_name"
+                    ],
+                    "name": "F25",
+                    "order_num": 0
+                }
+            ],
+            "name": "P18",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "B_name",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "B_name"
+                    ],
+                    "name": "F25",
+                    "order_num": 0
+                }
+            ],
+            "name": "P19",
+            "type": "check",
+            "widgets": []
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "Reels"
+                    ],
+                    "name": "F5",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F14",
+                    "order_num": 1
+                }
+            ],
+            "name": "P22",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "Public",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "Reels"
+                    ],
+                    "name": "F5",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F14",
+                    "order_num": 1
+                }
+            ],
+            "name": "P22",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Allow others to share your reels to their stories?",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "Friends",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "Public",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "Reels"
+                    ],
+                    "name": "F5",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F14",
+                    "order_num": 1
+                }
+            ],
+            "name": "not P22",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Allow others to share your reels to their stories?",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "Public",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "Friends",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F1",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F2",
+                    "order_num": 1
+                },
+                {
+                    "args": [
+                        "2",
+                        "1"
+                    ],
+                    "name": "F30",
+                    "order_num": 2
+                }
+            ],
+            "name": "P23",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "Reel,",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+            ],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F1",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F2",
+                    "order_num": 1
+                },
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F30",
+                    "order_num": 2
+                },
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F31",
+                    "order_num": 2
+                },
+                {
+                    "args": [
+                        "2",
+                        "Your story"
+                    ],
+                    "name": "F19",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "2",
+                        "Your story"
+                    ],
+                    "name": "F24",
+                    "order_num": 1
+                }
+            ],
+            "name": "P26",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "Your story",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "More options for this item",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "Delete photo ",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "DELETE",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "Your story"
+                    ],
+                    "name": "F19",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "2",
+                        "Your story"
+                    ],
+                    "name": "F24",
+                    "order_num": 1
+                }
+            ],
+            "name": "P27",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "More options for this item",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "Delete photo ",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "DELETE",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "not in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "A_name"
+                    ],
+                    "name": "F1",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "1",
+                        "A_name"
+                    ],
+                    "name": "F2",
+                    "order_num": 1
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F15",
+                    "order_num": 2
+                }
+            ],
+            "name": "P30",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "testdelete",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "A_name"
+                    ],
+                    "name": "F1",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "1",
+                        "A_name"
+                    ],
+                    "name": "F2",
+                    "order_num": 1
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F15",
+                    "order_num": 2
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F15",
+                    "order_num": 2
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F28",
+                    "order_num": 3
+                }
+            ],
+            "name": "P30",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "testdelete"
+                    ],
+                    "name": "F12",
+                    "order_num": 0
+                }
+            ],
+            "name": "not P30",
+            "type": "control",
+            "widgets": []
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F1",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F2",
+                    "order_num": 1
+                },
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F15",
+                    "order_num": 2
+                }
+            ],
+            "name": "P31",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "testdelete",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "A_name"
+                    ],
+                    "name": "F1",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "1",
+                        "A_name"
+                    ],
+                    "name": "F2",
+                    "order_num": 1
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F15",
+                    "order_num": 2
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F15",
+                    "order_num": 2
+                }
+            ],
+            "name": "P32",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "testdelete",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "not in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "Followers and public content"
+                    ],
+                    "name": "F5",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F21",
+                    "order_num": 1
+                }
+            ],
+            "name": "P33",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "Only me",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "scroll_forward",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e5_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e6_widget"
+                },
+                {
+                    "action": "scroll_forward",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e7_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e8_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e9_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "Followers and public content"
+                    ],
+                    "name": "F5",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F21",
+                    "order_num": 1
+                }
+            ],
+            "name": "P33",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "Public",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "Who can see the people, Pages and lists you follow?",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "",
+                    "text": "Public",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "class": "",
+                    "content-desc": "Back",
+                    "instance": "",
+                    "name": "e5_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "5",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "2",
+                    "name": "e6_widget",
+                    "resource-id": "",
+                    "text": "Public",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "6",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e7_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "7",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e8_widget",
+                    "resource-id": "",
+                    "text": "Everyone",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "8",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e9_widget",
+                    "resource-id": "",
+                    "text": "Public",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e5_widget"
+                },
+                {
+                    "action": "scroll_forward",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e6_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e7_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e8_widget"
+                },
+                {
+                    "action": "scroll_forward",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e9_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e10_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "Followers and public content"
+                    ],
+                    "name": "F5",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F21",
+                    "order_num": 1
+                }
+            ],
+            "name": "not P33",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "Friends",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "Who can see the people, Pages and lists you follow?",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "See More",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "",
+                    "text": "Only me",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "class": "",
+                    "content-desc": "Back",
+                    "instance": "",
+                    "name": "e5_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "5",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e6_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "6",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e7_widget",
+                    "resource-id": "",
+                    "text": "Friends",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "7",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e8_widget",
+                    "resource-id": "",
+                    "text": "No one",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "8",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e9_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "9",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e10_widget",
+                    "resource-id": "",
+                    "text": "Friends",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "Profile and Tagging"
+                    ],
+                    "name": "F5",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F22",
+                    "order_num": 1
+                }
+            ],
+            "name": "P38",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "Friends",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e5_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e6_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e7_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e8_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "Profile and Tagging"
+                    ],
+                    "name": "F5",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F22",
+                    "order_num": 1
+                }
+            ],
+            "name": "P38",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "Only me",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "Friends",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "Only me",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "",
+                    "text": "Friends",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e5_widget",
+                    "resource-id": "",
+                    "text": "Only me",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "5",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e6_widget",
+                    "resource-id": "",
+                    "text": "Friends",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "6",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e7_widget",
+                    "resource-id": "",
+                    "text": "Only me",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "7",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e8_widget",
+                    "resource-id": "",
+                    "text": "Friends",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e5_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e6_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e7_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "",
+                    "force": true,
+                    "text": "",
+                    "widget": "e8_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "1",
+                        "Profile and Tagging"
+                    ],
+                    "name": "F5",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "1",
+                        "1"
+                    ],
+                    "name": "F22",
+                    "order_num": 1
+                }
+            ],
+            "name": "not P38",
+            "type": "control",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "Friends",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "Only me",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "Friends",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "",
+                    "text": "Only me",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e5_widget",
+                    "resource-id": "",
+                    "text": "Friends",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "5",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e6_widget",
+                    "resource-id": "",
+                    "text": "Only me",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "6",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e7_widget",
+                    "resource-id": "",
+                    "text": "Friends",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "7",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e8_widget",
+                    "resource-id": "",
+                    "text": "Only me",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "8",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F1",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F2",
+                    "order_num": 1
+                },
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F15",
+                    "order_num": 2
+                },
+                {
+                    "args": [
+                        "2",
+                        "test"
+                    ],
+                    "name": "F16",
+                    "order_num": 3
+                },
+                {
+                    "args": [
+                        "2",
+                        "B_name"
+                    ],
+                    "name": "F25",
+                    "order_num": 0
+                }
+            ],
+            "name": "P34",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "B_name",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "6",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F1",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F2",
+                    "order_num": 1
+                },
+                {
+                    "args": [
+                        "2",
+                        "2"
+                    ],
+                    "name": "F15",
+                    "order_num": 2
+                }
+            ],
+            "name": "P37",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "Like",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "Like button, pressed. Double tap and hold to change reaction.",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "Like",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "Like button, pressed. Double tap and hold to change reaction.",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "12",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [
+                {
+                    "action": "scroll_forward",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e1_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e2_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e3_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e4_widget"
+                },
+                {
+                    "action": "edit",
+                    "device": "2",
+                    "force": true,
+                    "text": "test profile",
+                    "widget": "e5_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e6_widget"
+                },
+                {
+                    "action": "scroll_forward",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e7_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e8_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e9_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e10_widget"
+                }
+            ],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F1",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F2",
+                    "order_num": 1
+                }
+            ],
+            "name": "P39",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e1_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "Photo",
+                    "instance": "",
+                    "name": "e2_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e3_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": "//android.widget.GridView/android.view.ViewGroup[2]/android.view.ViewGroup[1]"
+                },
+                {
+                    "UI_layout_num": "3",
+                    "class": "",
+                    "content-desc": "NEXT",
+                    "instance": "",
+                    "name": "e4_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "4",
+                    "class": "android.widget.EditText",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e5_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "5",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e6_widget",
+                    "resource-id": "",
+                    "text": "POST",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "6",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e7_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Post menu",
+                    "instance": "",
+                    "name": "e8_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "Delete ",
+                    "instance": "",
+                    "name": "e9_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e10_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "DELETE",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "test profile",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [],
+            "events": [
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e8_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e9_widget"
+                },
+                {
+                    "action": "click",
+                    "device": "2",
+                    "force": true,
+                    "text": "",
+                    "widget": "e10_widget"
+                }
+            ],
+            "fragments": [],
+            "name": "P40",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "0",
+                    "class": "",
+                    "content-desc": "Post menu",
+                    "instance": "",
+                    "name": "e8_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "1",
+                    "class": "",
+                    "content-desc": "Delete ",
+                    "instance": "",
+                    "name": "e9_widget",
+                    "resource-id": "",
+                    "text": "",
+                    "xpath": ""
+                },
+                {
+                    "UI_layout_num": "2",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "e10_widget",
+                    "resource-id": "com.facebook.katana:id/(name removed)",
+                    "text": "DELETE",
+                    "xpath": ""
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "events": [],
+            "fragments": [
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F1",
+                    "order_num": 0
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F2",
+                    "order_num": 1
+                },
+                {
+                    "args": [
+                        "2",
+                        "A_name"
+                    ],
+                    "name": "F15",
+                    "order_num": 2
+                }
+            ],
+            "name": "P41",
+            "type": "check",
+            "widgets": [
+                {
+                    "UI_layout_num": "",
+                    "class": "",
+                    "content-desc": "",
+                    "instance": "",
+                    "name": "check_widget_1",
+                    "resource-id": "",
+                    "text": "test c comment",
+                    "xpath": ""
+                }
+            ]
+        }
+    ]
+}

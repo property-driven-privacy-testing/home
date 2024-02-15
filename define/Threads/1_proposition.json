@@ -1,0 +1,2174 @@
+{
+    "propositions": [
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "Private profile",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "1",
+                    "text": "",
+                    "resource-id": "com.instagram.barcelona:id/primary_button",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "checked::true",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "2"
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "2"
+                }
+            ],
+            "name": "P0",
+            "type": "control",
+            "conditions": [
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F3",
+                    "args": [
+                        "2",
+                        "2"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "Private profile",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "1",
+                    "text": "",
+                    "resource-id": "com.instagram.barcelona:id/primary_button",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "checked::true",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "2"
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "2"
+                }
+            ],
+            "name": "not P0",
+            "type": "control",
+            "conditions": [
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F3",
+                    "args": [
+                        "2",
+                        "2"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "checked::true",
+                    "instance": ""
+                }
+            ],
+            "events": [
+            ],
+            "name": "P0",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "3",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F3",
+                    "args": [
+                        "2",
+                        "2"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "No results found for",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P1",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "3",
+                    "relation": "not in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "Following",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P2",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "Follow back",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "Following",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": false,
+                    "device": ""
+                }
+            ],
+            "name": "P2",
+            "type": "control",
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F7",
+                    "args": [
+                        "1",
+                        "Follow"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+            ],
+            "events": [],
+            "name": "not P2",
+            "type": "control",
+            "conditions": [
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F7",
+                    "args": [
+                        "1",
+                        "Following"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "Following",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P3",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "Following",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "Follow back",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": false,
+                    "device": ""
+                }
+            ],
+            "name": "P3",
+            "type": "control",
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F7",
+                    "args": [
+                        "2",
+                        "Follow"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+            ],
+            "events": [],
+            "name": "not P3",
+            "type": "control",
+            "conditions": [
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F7",
+                    "args": [
+                        "2",
+                        "Following"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "No results found for",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P4",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "3",
+                    "relation": "not in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "B_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "B_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "Reply",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P5",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "Reply",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P6",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "B_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "B_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "Unblock",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "check_widget_2",
+                    "UI_layout_num": "",
+                    "text": "No results found for",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P7",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                },
+                {
+                    "UI_layout_num": "4",
+                    "relation": "not in",
+                    "type": "",
+                    "widget": "check_widget_2"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+            ],
+            "events": [],
+            "name": "P7",
+            "type": "control",
+            "conditions": [
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F9",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+            ],
+            "events": [],
+            "name": "not P7",
+            "type": "control",
+            "conditions": [
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F10",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "Reply",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P8",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "No results found for",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P9",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "3",
+                    "relation": "not in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "Post",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P10",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "8",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "B_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "2",
+                        "anyonepost"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "Post",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P11",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "8",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "B_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "2",
+                        "mentionpost"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "Hidden Words",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "enabled::true**ymin::1046**xmin::640",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "P12",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F3",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "Hidden Words",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "1",
+                    "text": "On",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": "1"
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "P12",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F3",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "Hidden Words",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "1",
+                    "text": "Off",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": "1"
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "not P12",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F3",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "Profile",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "1",
+                    "text": "anyonepost",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "B_ID",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "action": "scrollto",
+                    "device": "1",
+                    "force": true,
+                    "text": "anyonepost",
+                    "widget": "e1_widget"
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "P13",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "3",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": []
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "Post",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P14",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "8",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "followspost"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "Post",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P15",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "8",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "B_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "2",
+                        "followspost"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "Unblock",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "check_widget_2",
+                    "UI_layout_num": "",
+                    "text": "No results found for",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P16",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                },
+                {
+                    "UI_layout_num": "4",
+                    "relation": "not in",
+                    "type": "",
+                    "widget": "check_widget_2"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [],
+            "events": [],
+            "name": "P16",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F9",
+                    "args": [
+                        "2",
+                        "2"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [],
+            "events": [],
+            "name": "not P16",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F10",
+                    "args": [
+                        "2",
+                        "2"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "Post",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P17",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "5",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "2",
+                        "A_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "2",
+                        "A_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F4",
+                    "args": [
+                        "2",
+                        "mentionpost"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "Post",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P18",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "8",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "mentionpost"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "Mentions",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "enabled::true**ymin::463**xmin::640",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "P19",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "4",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F3",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "Mentions",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "1",
+                    "text": "Everyone",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "P19",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F3",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "Mentions",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "1",
+                    "text": "Profiles you follow",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": ""
+                }
+            ],
+            "name": "not P19",
+            "type": "control",
+            "conditions": [],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F3",
+                    "args": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "Post",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P20",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "8",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "mentionotherpost"
+                    ]
+                }
+            ]
+        },
+        {
+            "widgets": [
+                {
+                    "name": "check_widget_1",
+                    "UI_layout_num": "",
+                    "text": "Post",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [],
+            "name": "P21",
+            "type": "check",
+            "conditions": [
+                {
+                    "UI_layout_num": "8",
+                    "relation": "in",
+                    "type": "",
+                    "widget": "check_widget_1"
+                }
+            ],
+            "fragments": [
+                {
+                    "order_num": 0,
+                    "name": "F1",
+                    "args": [
+                        "1",
+                        "B_ID"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F2",
+                    "args": [
+                        "1",
+                        "B_name"
+                    ]
+                },
+                {
+                    "order_num": 0,
+                    "name": "F5",
+                    "args": [
+                        "1",
+                        "anyonepost"
+                    ]
+                }
+            ]
+        }
+    ],
+    "fragments": [
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "Search",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "//android.widget.EditText/android.widget.TextView[1]",
+                    "instance": "1"
+                },
+                {
+                    "name": "e3_widget",
+                    "UI_layout_num": "1",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "android.widget.EditText",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e3_widget",
+                    "action": "edit",
+                    "text": "args[1]",
+                    "force": true,
+                    "device": "args[0]"
+                }
+            ],
+            "name": "F1"
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "args[1]",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                }
+            ],
+            "name": "F2"
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e0_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "Profile",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "Settings",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "1",
+                    "text": "Privacy",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e0_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                }
+            ],
+            "name": "F3"
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "Mention",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "1",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "Cancel",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e3_widget",
+                    "UI_layout_num": "2",
+                    "text": "",
+                    "resource-id": "com.instagram.barcelona:id/primary_button",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e3_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                }
+            ],
+            "name": "F4"
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "args[1]",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "1",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "Reply",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e3_widget",
+                    "UI_layout_num": "2",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "android.widget.EditText",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "action": "scrollto",
+                    "device": "args[0]",
+                    "force": true,
+                    "text": "args[1]",
+                    "widget": "e1_widget"
+                },
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e3_widget",
+                    "action": "edit",
+                    "text": "random",
+                    "force": true,
+                    "device": "args[0]"
+                }
+            ],
+            "name": "F5"
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "args[1]",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                }
+            ],
+            "name": "F7"
+        },
+        {
+            "widgets": [
+                {
+                    "name": "e0_widget",
+                    "UI_layout_num": "0",
+                    "text": "",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "Profile menu",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "Block",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "1",
+                    "text": "",
+                    "resource-id": "com.instagram.barcelona:id/bb_primary_action",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e0_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                }
+            ],
+            "name": "F9"
+        },
+        {
+            "widgets": [
+                
+                {
+                    "name": "e1_widget",
+                    "UI_layout_num": "0",
+                    "text": "Unblock",
+                    "resource-id": "",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e2_widget",
+                    "UI_layout_num": "1",
+                    "text": "",
+                    "resource-id": "com.instagram.barcelona:id/primary_button",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                },
+                {
+                    "name": "e3_widget",
+                    "UI_layout_num": "2",
+                    "text": "",
+                    "resource-id": "com.instagram.barcelona:id/primary_button",
+                    "class": "",
+                    "content-desc": "",
+                    "xpath": "",
+                    "instance": ""
+                }
+            ],
+            "events": [
+                {
+                    "widget": "e1_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e2_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                },
+                {
+                    "widget": "e3_widget",
+                    "action": "click",
+                    "text": "",
+                    "force": true,
+                    "device": "args[0]"
+                }
+            ],
+            "name": "F10"
+        }
+    ]
+}

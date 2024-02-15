@@ -1,0 +1,169 @@
+Line:A does not follow B, and B does not follow A, B is set as a private account -> if A can find B user card before B is set as a private account, then A can find B user card
+Formula:G(!P0&P1&X(!P2&!P3&P0)->X(P1))
+
+Line:A follows B, and B follows A, B is set as a private account -> A can find B user card
+Formula:G(P2&P3&P0->P1)
+
+Line:A follows B, and B does not follow A, B is set as a private account -> A can find B user card
+Formula:G(P2&!P3&P0->P1)
+
+Line:A does not follow B, and B follows A, B is set as a private account -> A can find B user card
+Formula:G(!P2&P3&P0->P1)
+
+Line:A does not follow B, B does not follow A, B is set as a private account -> A can see the private account prompt box in B homepage, A can not see B video in B homepage
+Formula:G(!P2&!P3&P0->P6&!P5)
+
+Line:A follows B, and B does not follow A, B is set as a private account -> A can not see the private account prompt box in B homepage, A can not see B video in B homepage
+Formula:G(P2&!P3&P0->!P6&!P5)
+
+Line:A follows B, and B follows A, B is set as a private account -> A can not see the private account prompt box in B homepage, if A can see B video in B homepage before B is set as a private account, then A can see B video in B homepage
+Formula:G(P2&P3&P0->!P6)&G(P2&P3&P5&X(P2&P3&P0)->X(P5))
+
+Line:A does not follow B, and B follows A, B is set as a private account -> A can see the private account prompt box in B homepage, if A can see B video in B homepage before B is set as a private account, then A can see B video in B homepage
+Formula:G(!P2&P3&P0->P6)&G(!P2&P3&P5&X(!P2&P3&P0)->X(P5))
+
+Line:A does not follow B, B does not follow A, B is set as a private account -> A can not see B public story in B homepage
+Formula:G(!P2&!P3&P0->!P7)
+
+Line:A follows B, and B does not follow A, B is set as a private account -> if A can see B public story in B homepage before B is set as a private account, then A can see B public story in B homepage
+Formula:G(!P0&P7&X(P2&!P3&P0)->X(P7))
+
+Line:A follows B, and B follows A, B is set as a private account -> if A can see B public story in B homepage before B is set as a private account, then A can see B public story in B homepage
+Formula:G(!P0&P7&X(P2&P3&P0)->X(P7))
+
+Line:A does not follow B, and B follows A, B is set as a private account -> A can not see B public story in B homepage
+Formula:G(!P2&P3&P0->!P7)
+
+Line:A does not follow B, B does not follow A, B is set as a private account -> if A can find B user card under accounts search before B is set as a private account, then A can find B user card under accounts search
+Formula:G(!P0&P8&X(!P2&!P3&P0)->X(P8))
+
+Line:A follows B, and B does not follow A, B is set as a private account -> A can find B user card under accounts search
+Formula:G(P2&!P3&P0->P8)
+
+Line:A follows B, and B follows A, B is set as a private account -> A can find B user card under accounts search
+Formula:G(P2&P3&P0->P8)
+
+Line:A does not follow B, and B follows A, B is set as a private account -> if A can find B user card under accounts search before B is set as a private account, then A can find B user card under accounts search
+Formula:G(!P0&P8&X(!P2&P3&P0)->X(P8))
+
+Line:B hides A story -> A can not find B story, B can not find A story
+Formula:G(P11->!P12&!P13)
+
+Line:A is blocking B -> A can not see B video in B homepage, B can not see A video in A homepage
+Formula:G(P14->!P5&!P15)
+
+Line:A is blocking B -> A can not see B public story in B homepage, B can not see A public story in A homepage
+Formula:G(P14->!P7&!P16)
+
+Line:A is blocking B -> A can find B user card, B can not find A user card
+Formula:G(P14->P1&!P17)
+
+Line:A is blocking B -> A can find B user card under accounts search, B can not find A user card under accounts search
+Formula:G(P14->P8&!P19)
+
+Line:A is blocking B -> Under the release page, A can tag B, B can not tag A
+Formula:G(P14->P20&!P21)
+
+Line:A is blocking B -> Under the comment page, A can tag B, B can not tag A
+Formula:G(P14->P22&!P23)
+
+Line:A is blocking B -> Under the personal page, A can tag B, B can not tag A
+Formula:G(P14->P24&!P25)
+
+Line:A does not follow B, and B does not follow A, B is set as a private account -> if A can find B user card before B is set as a private account, then A can find B user card
+Formula:G(!P0&P1&X(!P2&!P3&P0)->X(P1))
+
+Line:A follows B, and B follows A, B is set as a private account -> A can find B user card
+Formula:G(P2&P3&P0->P1)
+
+Line:A follows B, and B does not follow A, B is set as a private account -> A can find B user card
+Formula:G(P2&!P3&P0->P1)
+
+Line:A does not follow B, and B follows A, B is set as a private account -> A can find B user card
+Formula:G(!P2&P3&P0->P1)
+
+Line:B is set as a private account -> B can find B user card
+Formula:G(P0->P26)
+
+Line:B can find B user card
+Formula:G(P26)
+
+Line:B can see its own video in his own homepage
+Formula:G(P27)
+
+Line:B can find his own public story
+Formula:G(P28)
+
+Line:B can find his own user card under accounts search
+Formula:G(P29)
+
+Line:b can see his own friend visible story in his own homepage
+Formula:G(P30)
+
+Line:A can not see B draft in B homepage
+Formula:G(!P31)
+
+P0:B set as a private account 
+P1:A find B user card 
+P2:A follow B 
+P3:B follow A 
+P5:A see B video in B homepage 
+P6:A see private account prompt box in B homepage 
+P7:A see B public story in B homepage 
+P8:under accounts search , A find B user card 
+P11:B hides A story 
+P12:A find B story 
+P13:B find A story 
+P14:A blocking B 
+P15:B see A video in A homepage 
+P16:B see A public story in A homepage 
+P17:B find A user card 
+P19:under accounts search , B find A user card 
+P20:Under release page , A tag B 
+P21:Under release page , B tag A 
+P22:Under comment page , A tag B 
+P23:Under comment page , B tag A 
+P24:Under personal page , A tag B 
+P25:Under personal page , B tag A 
+P26:B find B user card 
+P27:B see its own video in his own homepage 
+P28:B find his own public story 
+P29:under accounts search , B find his own user card 
+P30:b see his own friend visible story in his own homepage 
+P31:A see B draft in B homepage 
+
+G(!P0&P1&X(!P2&!P3&P0)->X(P1))
+G(P2&P3&P0->P1)
+G(P2&!P3&P0->P1)
+G(!P2&P3&P0->P1)
+G(!P2&!P3&P0->P6&!P5)
+G(P2&!P3&P0->!P6&!P5)
+G(P2&P3&P0->!P6)&G(P2&P3&P5&X(P2&P3&P0)->X(P5))
+G(!P2&P3&P0->P6)&G(!P2&P3&P5&X(!P2&P3&P0)->X(P5))
+G(!P2&!P3&P0->!P7)
+G(!P0&P7&X(P2&!P3&P0)->X(P7))
+G(!P0&P7&X(P2&P3&P0)->X(P7))
+G(!P2&P3&P0->!P7)
+G(!P0&P8&X(!P2&!P3&P0)->X(P8))
+G(P2&!P3&P0->P8)
+G(P2&P3&P0->P8)
+G(!P0&P8&X(!P2&P3&P0)->X(P8))
+G(P11->!P12&!P13)
+G(P14->!P5&!P15)
+G(P14->!P7&!P16)
+G(P14->P1&!P17)
+G(P14->P8&!P19)
+G(P14->P20&!P21)
+G(P14->P22&!P23)
+G(P14->P24&!P25)
+G(!P0&P1&X(!P2&!P3&P0)->X(P1))
+G(P2&P3&P0->P1)
+G(P2&!P3&P0->P1)
+G(!P2&P3&P0->P1)
+G(P0->P26)
+G(P26)
+G(P27)
+G(P28)
+G(P29)
+G(P30)
+G(!P31)
